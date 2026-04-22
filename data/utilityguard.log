@@ -1,0 +1,866 @@
+2026-04-15 23:18:41,805 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:18:41,823 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 3b46db74 at 2026-04-15T17:48:41.823249
+2026-04-15 23:18:41,823 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:18:41,823 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:18:41,845 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:18:41,849 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=56.3 psi (Δ+2.4%), F=11.8 lps (Δ-1.2%), C=328.9 m³ (Δ+2.8%)
+2026-04-15 23:18:41,856 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=51.5 psi (Δ-1.0%), F=10.5 lps (Δ-0.3%), C=282.8 m³ (Δ+1.0%)
+2026-04-15 23:18:41,858 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=59.4 psi (Δ+2.3%), F=13.9 lps (Δ-0.9%), C=351.3 m³ (Δ+0.4%)
+2026-04-15 23:18:41,860 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=48.9 psi (Δ-2.3%), F=8.9 lps (Δ-1.0%), C=264.0 m³ (Δ+1.5%)
+2026-04-15 23:18:41,863 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.9 psi (Δ+1.7%), F=11.3 lps (Δ+2.7%), C=309.0 m³ (Δ+3.0%)
+2026-04-15 23:18:41,863 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:18:41,864 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:18:41,864 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:18:41,868 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:18:41,868 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:18:41,869 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:18:41,869 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:18:41,869 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:18:41,870 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:18:41,870 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:18:41,870 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:18:41,871 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:18:41,871 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:18:41,871 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 3b46db74
+2026-04-15 23:18:41,871 [INFO] utilityguard.ManagerAgent: Plan: 0 anomalies detected out of 5 zones
+2026-04-15 23:18:41,872 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:18:41,872 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:18:41,872 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:18:41,872 [INFO] utilityguard.NotificationAgent: No anomalies detected — no notifications needed
+2026-04-15 23:18:41,877 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 3b46db74 completed
+2026-04-15 23:18:41,877 [INFO] utilityguard.Pipeline: 🏁 Cycle 3b46db74 finished — status: completed
+2026-04-15 23:24:38,634 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:24:38,641 [INFO] utilityguard.Pipeline: 🔄 Starting cycle a17abfdb at 2026-04-15T17:54:38.641587
+2026-04-15 23:24:38,641 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:24:38,642 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:24:38,681 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:24:38,686 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.3 psi (Δ-1.8%), F=11.9 lps (Δ+0.4%), C=322.8 m³ (Δ-1.8%)
+2026-04-15 23:24:38,690 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=50.7 psi (Δ-1.6%), F=10.3 lps (Δ-1.2%), C=282.3 m³ (Δ-0.2%)
+2026-04-15 23:24:38,694 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=59.3 psi (Δ-0.1%), F=14.1 lps (Δ+1.9%), C=344.7 m³ (Δ-1.9%)
+2026-04-15 23:24:38,697 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=51.5 psi (Δ+5.4%), F=9.0 lps (Δ+1.5%), C=259.6 m³ (Δ-1.7%)
+2026-04-15 23:24:38,705 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=53.1 psi (Δ-3.3%), F=11.1 lps (Δ-1.6%), C=296.1 m³ (Δ-4.2%)
+2026-04-15 23:24:38,706 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:24:38,706 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:24:38,706 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:24:38,710 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:24:38,710 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:24:38,710 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:24:38,711 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:24:38,711 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:24:38,711 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:24:38,711 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:24:38,711 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:24:38,711 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:24:38,711 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:24:38,712 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle a17abfdb
+2026-04-15 23:24:38,712 [INFO] utilityguard.ManagerAgent: Plan: 0 anomalies detected out of 5 zones
+2026-04-15 23:24:38,712 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:24:38,713 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:24:38,713 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:24:38,713 [INFO] utilityguard.NotificationAgent: No anomalies detected — no notifications needed
+2026-04-15 23:24:38,722 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle a17abfdb completed
+2026-04-15 23:24:38,723 [INFO] utilityguard.Pipeline: 🏁 Cycle a17abfdb finished — status: completed
+2026-04-15 23:28:28,124 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_3
+2026-04-15 23:28:28,126 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:28:28,126 [INFO] utilityguard.Pipeline: 🔄 Starting cycle b1764e42 at 2026-04-15T17:58:28.126626
+2026-04-15 23:28:28,126 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:28:28,126 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:28:28,134 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:28:28,137 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.7 psi (Δ+0.8%), F=11.8 lps (Δ-1.0%), C=320.2 m³ (Δ-0.8%)
+2026-04-15 23:28:28,141 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=52.9 psi (Δ+4.3%), F=10.5 lps (Δ+1.6%), C=279.3 m³ (Δ-1.1%)
+2026-04-15 23:28:28,141 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=40.5 psi (Δ-31.7%), F=24.5 lps (Δ+73.4%), C=347.8 m³ (Δ+0.9%)
+2026-04-15 23:28:28,145 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.6 psi (Δ-3.7%), F=9.2 lps (Δ+2.0%), C=263.7 m³ (Δ+1.6%)
+2026-04-15 23:28:28,148 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=53.7 psi (Δ+1.1%), F=10.9 lps (Δ-1.8%), C=294.4 m³ (Δ-0.6%)
+2026-04-15 23:28:28,149 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:28:28,149 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:28:28,149 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:28:28,150 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:28:28,151 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:28:28,151 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:28:28,151 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:28:28,151 [INFO] utilityguard.ReasoningAgent: Zone zone_3: LEAK (severity=medium, confidence=0.85)
+2026-04-15 23:28:28,151 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:28:28,151 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:28:28,151 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:28:28,152 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:28:28,152 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:28:28,152 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle b1764e42
+2026-04-15 23:28:28,152 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-15 23:28:28,152 [INFO] utilityguard.ManagerAgent:   → zone_3: LEAK (medium, confidence=0.85)
+2026-04-15 23:28:28,152 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:28:28,153 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_3
+2026-04-15 23:28:28,157 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_3
+2026-04-15 23:28:28,157 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_3 → 200 OK
+2026-04-15 23:28:28,157 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:28:28,157 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:28:28,157 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_3
+  Body:
+Issue Type: LEAK
+Severity: medium
+Affected Zone: zone_3
+Confidence: 85%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -31.68%
+  • Flow change: +73.41%
+  • Consumption change: +0.91%
+  • Pressure drop -31.68% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_3 due to LEAK (severity: medium)
+Action Success: ✅
+2026-04-15 23:28:28,157 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-15 23:28:28,164 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle b1764e42 completed
+2026-04-15 23:28:28,164 [INFO] utilityguard.Pipeline: 🏁 Cycle b1764e42 finished — status: completed
+2026-04-15 23:28:28,164 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_3
+2026-04-15 23:36:03,408 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_3
+2026-04-15 23:36:03,468 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:36:03,472 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 035e983f at 2026-04-15T18:06:03.472272
+2026-04-15 23:36:03,476 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:36:03,486 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:36:03,623 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:36:03,703 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=53.8 psi (Δ-3.5%), F=12.1 lps (Δ+2.7%), C=318.6 m³ (Δ-0.5%)
+2026-04-15 23:36:03,732 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=51.4 psi (Δ-2.7%), F=10.5 lps (Δ-0.3%), C=285.8 m³ (Δ+2.3%)
+2026-04-15 23:36:03,733 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=40.9 psi (Δ-31.1%), F=23.5 lps (Δ+66.0%), C=347.6 m³ (Δ+0.8%)
+2026-04-15 23:36:03,775 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.4 psi (Δ-0.3%), F=8.8 lps (Δ-4.3%), C=260.5 m³ (Δ-1.2%)
+2026-04-15 23:36:03,798 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.1 psi (Δ+0.7%), F=11.0 lps (Δ+0.5%), C=302.0 m³ (Δ+2.6%)
+2026-04-15 23:36:03,800 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:36:03,809 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:36:03,817 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:36:03,850 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:36:03,850 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:36:03,851 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:36:03,851 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:36:03,853 [INFO] utilityguard.ReasoningAgent: Zone zone_3: LEAK (severity=medium, confidence=0.85)
+2026-04-15 23:36:03,854 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:36:03,858 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:36:03,859 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:36:03,859 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:36:03,860 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:36:03,865 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 035e983f
+2026-04-15 23:36:03,868 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-15 23:36:03,869 [INFO] utilityguard.ManagerAgent:   → zone_3: LEAK (medium, confidence=0.85)
+2026-04-15 23:36:03,880 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:36:03,887 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_3
+2026-04-15 23:36:03,926 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_3
+2026-04-15 23:36:03,927 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_3 → 200 OK
+2026-04-15 23:36:03,931 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:36:03,932 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:36:03,948 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_3
+  Body:
+Issue Type: LEAK
+Severity: medium
+Affected Zone: zone_3
+Confidence: 85%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -31.10%
+  • Flow change: +66.05%
+  • Consumption change: +0.83%
+  • Pressure drop -31.10% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_3 due to LEAK (severity: medium)
+Action Success: ✅
+2026-04-15 23:36:03,965 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-15 23:36:04,050 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 035e983f completed
+2026-04-15 23:36:04,052 [INFO] utilityguard.Pipeline: 🏁 Cycle 035e983f finished — status: completed
+2026-04-15 23:36:04,052 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_3
+2026-04-15 23:54:10,994 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_3
+2026-04-15 23:54:11,017 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:54:11,018 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 57a5f8e6 at 2026-04-15T18:24:11.018504
+2026-04-15 23:54:11,019 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:54:11,023 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:54:11,073 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:54:11,115 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.2 psi (Δ+2.6%), F=11.7 lps (Δ-3.7%), C=325.9 m³ (Δ+2.3%)
+2026-04-15 23:54:11,127 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=52.4 psi (Δ+1.8%), F=10.8 lps (Δ+2.9%), C=279.3 m³ (Δ-2.3%)
+2026-04-15 23:54:11,128 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=39.4 psi (Δ-33.5%), F=24.0 lps (Δ+69.8%), C=352.9 m³ (Δ+2.4%)
+2026-04-15 23:54:11,139 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=48.8 psi (Δ-1.2%), F=8.9 lps (Δ+1.1%), C=257.0 m³ (Δ-1.3%)
+2026-04-15 23:54:11,147 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.0 psi (Δ-0.2%), F=10.8 lps (Δ-1.4%), C=296.6 m³ (Δ-1.8%)
+2026-04-15 23:54:11,147 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:54:11,150 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:54:11,154 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:11,158 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:11,159 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:11,159 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:11,160 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:11,161 [INFO] utilityguard.ReasoningAgent: Zone zone_3: LEAK (severity=medium, confidence=0.85)
+2026-04-15 23:54:11,162 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:11,162 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:11,163 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:11,163 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:11,163 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:54:11,166 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 57a5f8e6
+2026-04-15 23:54:11,167 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-15 23:54:11,168 [INFO] utilityguard.ManagerAgent:   → zone_3: LEAK (medium, confidence=0.85)
+2026-04-15 23:54:11,174 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:54:11,176 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_3
+2026-04-15 23:54:11,206 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_3
+2026-04-15 23:54:11,207 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_3 → 200 OK
+2026-04-15 23:54:11,208 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:54:11,210 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:54:11,213 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_3
+  Body:
+Issue Type: LEAK
+Severity: medium
+Affected Zone: zone_3
+Confidence: 85%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -33.53%
+  • Flow change: +69.80%
+  • Consumption change: +2.38%
+  • Pressure drop -33.53% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_3 due to LEAK (severity: medium)
+Action Success: ✅
+2026-04-15 23:54:11,216 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-15 23:54:11,242 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 57a5f8e6 completed
+2026-04-15 23:54:11,243 [INFO] utilityguard.Pipeline: 🏁 Cycle 57a5f8e6 finished — status: completed
+2026-04-15 23:54:11,245 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_3
+2026-04-15 23:54:13,773 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting SHORTAGE into zone_3
+2026-04-15 23:54:13,774 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:54:13,774 [INFO] utilityguard.Pipeline: 🔄 Starting cycle d3505d42 at 2026-04-15T18:24:13.774196
+2026-04-15 23:54:13,775 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:54:13,775 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:54:13,783 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:54:13,796 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.0 psi (Δ-0.4%), F=11.8 lps (Δ+1.7%), C=315.1 m³ (Δ-3.3%)
+2026-04-15 23:54:13,809 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=52.8 psi (Δ+0.8%), F=10.3 lps (Δ-4.3%), C=287.4 m³ (Δ+2.9%)
+2026-04-15 23:54:13,811 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=57.8 psi (Δ-2.6%), F=14.1 lps (Δ-0.6%), C=476.1 m³ (Δ+38.1%)
+2026-04-15 23:54:13,827 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=50.4 psi (Δ+3.3%), F=9.0 lps (Δ+0.7%), C=266.6 m³ (Δ+3.7%)
+2026-04-15 23:54:13,843 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=55.0 psi (Δ+1.9%), F=11.3 lps (Δ+4.4%), C=292.6 m³ (Δ-1.4%)
+2026-04-15 23:54:13,844 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:54:13,845 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:54:13,845 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:13,846 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:13,846 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:13,846 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:13,847 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:13,848 [INFO] utilityguard.ReasoningAgent: Zone zone_3: SHORTAGE (severity=medium, confidence=0.80)
+2026-04-15 23:54:13,848 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:13,849 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:13,854 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:13,854 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:13,855 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:54:13,855 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle d3505d42
+2026-04-15 23:54:13,858 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-15 23:54:13,860 [INFO] utilityguard.ManagerAgent:   → zone_3: SHORTAGE (medium, confidence=0.80)
+2026-04-15 23:54:13,861 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:54:13,862 [INFO] utilityguard.ActionAgent: 🔄 Rerouting resources to zone zone_3
+2026-04-15 23:54:13,875 [DEBUG] utilityguard.ActionAgent: CRM entry written: resource_rerouted for zone_3
+2026-04-15 23:54:13,878 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/reroute_resources — zone=zone_3 → 200 OK
+2026-04-15 23:54:13,879 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:54:13,879 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:54:13,880 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: SHORTAGE in zone_3
+  Body:
+Issue Type: SHORTAGE
+Severity: medium
+Affected Zone: zone_3
+Confidence: 80%
+Recommended Action: Reroute resources from adjacent zones and alert consumers
+
+Reasoning:
+  • Pressure change: -2.61%
+  • Flow change: -0.57%
+  • Consumption change: +38.11%
+  • Consumption spike +38.11% with stable pressure → SHORTAGE
+
+Action Taken: resource_rerouted
+Action Details: Resources rerouted to zone_3 due to SHORTAGE (severity: medium)
+Action Success: ✅
+2026-04-15 23:54:13,881 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-15 23:54:13,925 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle d3505d42 completed
+2026-04-15 23:54:13,925 [INFO] utilityguard.Pipeline: 🏁 Cycle d3505d42 finished — status: completed
+2026-04-15 23:54:13,927 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_3
+2026-04-15 23:54:15,811 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_3
+2026-04-15 23:54:15,812 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:54:15,812 [INFO] utilityguard.Pipeline: 🔄 Starting cycle b08f8949 at 2026-04-15T18:24:15.812482
+2026-04-15 23:54:15,813 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-15 23:54:15,813 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-15 23:54:15,817 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-15 23:54:15,835 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.8 psi (Δ+1.5%), F=12.1 lps (Δ+1.8%), C=325.9 m³ (Δ+3.4%)
+2026-04-15 23:54:15,848 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=53.0 psi (Δ+0.4%), F=10.5 lps (Δ+1.7%), C=283.9 m³ (Δ-1.2%)
+2026-04-15 23:54:15,848 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=37.1 psi (Δ-37.5%), F=22.9 lps (Δ+62.2%), C=356.4 m³ (Δ+3.4%)
+2026-04-15 23:54:15,858 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.2 psi (Δ-2.4%), F=9.2 lps (Δ+2.5%), C=267.4 m³ (Δ+0.3%)
+2026-04-15 23:54:15,868 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.2 psi (Δ-1.4%), F=11.3 lps (Δ-0.2%), C=304.3 m³ (Δ+4.0%)
+2026-04-15 23:54:15,869 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-15 23:54:15,869 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-15 23:54:15,870 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:15,871 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:15,872 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:15,872 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:15,873 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:15,873 [INFO] utilityguard.ReasoningAgent: Zone zone_3: LEAK (severity=high, confidence=0.95)
+2026-04-15 23:54:15,873 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:15,873 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:15,873 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-15 23:54:15,874 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-15 23:54:15,874 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-15 23:54:15,874 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle b08f8949
+2026-04-15 23:54:15,875 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-15 23:54:15,875 [INFO] utilityguard.ManagerAgent:   → zone_3: LEAK (high, confidence=0.95)
+2026-04-15 23:54:15,875 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-15 23:54:15,875 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_3
+2026-04-15 23:54:15,879 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_3
+2026-04-15 23:54:15,880 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_3 → 200 OK
+2026-04-15 23:54:15,881 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-15 23:54:15,881 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-15 23:54:15,882 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_3
+  Body:
+Issue Type: LEAK
+Severity: high
+Affected Zone: zone_3
+Confidence: 95%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -37.49%
+  • Flow change: +62.16%
+  • Consumption change: +3.40%
+  • Pressure drop -37.49% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_3 due to LEAK (severity: high)
+Action Success: ✅
+2026-04-15 23:54:15,883 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-15 23:54:15,912 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle b08f8949 completed
+2026-04-15 23:54:15,913 [INFO] utilityguard.Pipeline: 🏁 Cycle b08f8949 finished — status: completed
+2026-04-15 23:54:15,913 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_3
+2026-04-16 10:49:59,602 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting SHORTAGE into zone_4
+2026-04-16 10:49:59,605 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:49:59,606 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 8a3fc53c at 2026-04-16T05:19:59.605937
+2026-04-16 10:49:59,606 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:49:59,607 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 10:49:59,627 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 10:49:59,656 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=53.8 psi (Δ-3.5%), F=12.2 lps (Δ+1.3%), C=314.2 m³ (Δ-3.6%)
+2026-04-16 10:49:59,678 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=53.5 psi (Δ+0.8%), F=10.7 lps (Δ+2.3%), C=276.8 m³ (Δ-2.5%)
+2026-04-16 10:49:59,707 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=57.0 psi (Δ-3.9%), F=14.3 lps (Δ+0.9%), C=352.7 m³ (Δ+2.3%)
+2026-04-16 10:49:59,708 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=48.2 psi (Δ-1.9%), F=9.0 lps (Δ-2.6%), C=380.1 m³ (Δ+42.1%)
+2026-04-16 10:49:59,731 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.6 psi (Δ+0.8%), F=11.3 lps (Δ-0.2%), C=300.2 m³ (Δ-1.4%)
+2026-04-16 10:49:59,732 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 10:49:59,733 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 10:49:59,733 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:49:59,736 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:49:59,737 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:49:59,737 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:49:59,738 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:49:59,738 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:49:59,738 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:49:59,739 [INFO] utilityguard.ReasoningAgent: Zone zone_4: SHORTAGE (severity=medium, confidence=0.80)
+2026-04-16 10:49:59,739 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:49:59,739 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:49:59,740 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 10:49:59,740 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 8a3fc53c
+2026-04-16 10:49:59,741 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 10:49:59,741 [INFO] utilityguard.ManagerAgent:   → zone_4: SHORTAGE (medium, confidence=0.80)
+2026-04-16 10:49:59,742 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 10:49:59,744 [INFO] utilityguard.ActionAgent: 🔄 Rerouting resources to zone zone_4
+2026-04-16 10:49:59,749 [DEBUG] utilityguard.ActionAgent: CRM entry written: resource_rerouted for zone_4
+2026-04-16 10:49:59,750 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/reroute_resources — zone=zone_4 → 200 OK
+2026-04-16 10:49:59,751 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 10:49:59,751 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 10:49:59,752 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: SHORTAGE in zone_4
+  Body:
+Issue Type: SHORTAGE
+Severity: medium
+Affected Zone: zone_4
+Confidence: 80%
+Recommended Action: Reroute resources from adjacent zones and alert consumers
+
+Reasoning:
+  • Pressure change: -1.93%
+  • Flow change: -2.61%
+  • Consumption change: +42.14%
+  • Consumption spike +42.14% with stable pressure → SHORTAGE
+
+Action Taken: resource_rerouted
+Action Details: Resources rerouted to zone_4 due to SHORTAGE (severity: medium)
+Action Success: ✅
+2026-04-16 10:49:59,752 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 10:49:59,785 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 8a3fc53c completed
+2026-04-16 10:49:59,786 [INFO] utilityguard.Pipeline: 🏁 Cycle 8a3fc53c finished — status: completed
+2026-04-16 10:49:59,787 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_4
+2026-04-16 10:50:00,934 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_4
+2026-04-16 10:50:00,936 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:00,936 [INFO] utilityguard.Pipeline: 🔄 Starting cycle c563ad55 at 2026-04-16T05:20:00.936871
+2026-04-16 10:50:00,937 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:00,937 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 10:50:00,942 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 10:50:00,963 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.6 psi (Δ+3.5%), F=12.2 lps (Δ-0.3%), C=326.5 m³ (Δ+3.9%)
+2026-04-16 10:50:00,980 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=51.7 psi (Δ-3.2%), F=10.5 lps (Δ-1.9%), C=276.4 m³ (Δ-0.1%)
+2026-04-16 10:50:00,996 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=57.1 psi (Δ+0.2%), F=13.7 lps (Δ-3.9%), C=345.8 m³ (Δ-2.0%)
+2026-04-16 10:50:00,998 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=28.6 psi (Δ-41.8%), F=13.8 lps (Δ+49.8%), C=258.8 m³ (Δ-3.2%)
+2026-04-16 10:50:01,016 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=53.5 psi (Δ-2.1%), F=11.1 lps (Δ-1.6%), C=305.3 m³ (Δ+1.7%)
+2026-04-16 10:50:01,018 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 10:50:01,019 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 10:50:01,019 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:01,019 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:01,019 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:01,021 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:01,022 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:01,022 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:01,022 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:01,022 [INFO] utilityguard.ReasoningAgent: Zone zone_4: LEAK (severity=high, confidence=0.95)
+2026-04-16 10:50:01,023 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:01,023 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:01,024 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 10:50:01,024 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle c563ad55
+2026-04-16 10:50:01,025 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 10:50:01,025 [INFO] utilityguard.ManagerAgent:   → zone_4: LEAK (high, confidence=0.95)
+2026-04-16 10:50:01,026 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 10:50:01,026 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_4
+2026-04-16 10:50:01,035 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_4
+2026-04-16 10:50:01,036 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_4 → 200 OK
+2026-04-16 10:50:01,036 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 10:50:01,037 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 10:50:01,038 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_4
+  Body:
+Issue Type: LEAK
+Severity: high
+Affected Zone: zone_4
+Confidence: 95%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -41.81%
+  • Flow change: +49.78%
+  • Consumption change: -3.22%
+  • Pressure drop -41.81% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_4 due to LEAK (severity: high)
+Action Success: ✅
+2026-04-16 10:50:01,038 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 10:50:01,075 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle c563ad55 completed
+2026-04-16 10:50:01,076 [INFO] utilityguard.Pipeline: 🏁 Cycle c563ad55 finished — status: completed
+2026-04-16 10:50:01,076 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_4
+2026-04-16 10:50:02,587 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting SHORTAGE into zone_4
+2026-04-16 10:50:02,587 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:02,588 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 30bca74c at 2026-04-16T05:20:02.588115
+2026-04-16 10:50:02,588 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:02,589 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 10:50:02,593 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 10:50:02,615 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=56.0 psi (Δ+0.6%), F=11.9 lps (Δ-2.2%), C=318.3 m³ (Δ-2.5%)
+2026-04-16 10:50:02,638 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=53.4 psi (Δ+3.2%), F=10.7 lps (Δ+1.8%), C=273.0 m³ (Δ-1.2%)
+2026-04-16 10:50:02,658 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=57.8 psi (Δ+1.3%), F=14.2 lps (Δ+3.7%), C=352.7 m³ (Δ+2.0%)
+2026-04-16 10:50:02,659 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.5 psi (Δ+0.7%), F=8.8 lps (Δ-4.8%), C=399.4 m³ (Δ+49.3%)
+2026-04-16 10:50:02,678 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.2 psi (Δ+1.4%), F=11.0 lps (Δ-1.0%), C=303.7 m³ (Δ-0.5%)
+2026-04-16 10:50:02,678 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 10:50:02,679 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 10:50:02,679 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:02,680 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:02,681 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:02,682 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:02,682 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:02,682 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:02,683 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:02,683 [INFO] utilityguard.ReasoningAgent: Zone zone_4: SHORTAGE (severity=medium, confidence=0.80)
+2026-04-16 10:50:02,683 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:02,684 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:02,684 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 10:50:02,684 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 30bca74c
+2026-04-16 10:50:02,685 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 10:50:02,686 [INFO] utilityguard.ManagerAgent:   → zone_4: SHORTAGE (medium, confidence=0.80)
+2026-04-16 10:50:02,686 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 10:50:02,687 [INFO] utilityguard.ActionAgent: 🔄 Rerouting resources to zone zone_4
+2026-04-16 10:50:02,691 [DEBUG] utilityguard.ActionAgent: CRM entry written: resource_rerouted for zone_4
+2026-04-16 10:50:02,692 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/reroute_resources — zone=zone_4 → 200 OK
+2026-04-16 10:50:02,693 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 10:50:02,693 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 10:50:02,693 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: SHORTAGE in zone_4
+  Body:
+Issue Type: SHORTAGE
+Severity: medium
+Affected Zone: zone_4
+Confidence: 80%
+Recommended Action: Reroute resources from adjacent zones and alert consumers
+
+Reasoning:
+  • Pressure change: +0.69%
+  • Flow change: -4.78%
+  • Consumption change: +49.33%
+  • Consumption spike +49.33% with stable pressure → SHORTAGE
+
+Action Taken: resource_rerouted
+Action Details: Resources rerouted to zone_4 due to SHORTAGE (severity: medium)
+Action Success: ✅
+2026-04-16 10:50:02,694 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 10:50:02,737 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 30bca74c completed
+2026-04-16 10:50:02,737 [INFO] utilityguard.Pipeline: 🏁 Cycle 30bca74c finished — status: completed
+2026-04-16 10:50:02,738 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_4
+2026-04-16 10:50:03,908 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_4
+2026-04-16 10:50:03,909 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:03,909 [INFO] utilityguard.Pipeline: 🔄 Starting cycle a9c5820b at 2026-04-16T05:20:03.909601
+2026-04-16 10:50:03,911 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:03,911 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 10:50:03,917 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 10:50:03,937 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.9 psi (Δ-0.2%), F=12.1 lps (Δ+1.3%), C=320.8 m³ (Δ+0.8%)
+2026-04-16 10:50:03,958 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=53.2 psi (Δ-0.4%), F=10.5 lps (Δ-1.9%), C=274.0 m³ (Δ+0.4%)
+2026-04-16 10:50:03,980 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=59.2 psi (Δ+2.4%), F=13.9 lps (Δ-2.5%), C=345.8 m³ (Δ-2.0%)
+2026-04-16 10:50:03,981 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=32.4 psi (Δ-34.1%), F=15.2 lps (Δ+65.3%), C=265.9 m³ (Δ-0.6%)
+2026-04-16 10:50:04,002 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.2 psi (Δ+0.0%), F=10.8 lps (Δ-1.8%), C=301.7 m³ (Δ-0.7%)
+2026-04-16 10:50:04,002 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 10:50:04,003 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 10:50:04,004 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:04,005 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:04,005 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:04,005 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:04,006 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:04,006 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:04,006 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:04,007 [INFO] utilityguard.ReasoningAgent: Zone zone_4: LEAK (severity=medium, confidence=0.85)
+2026-04-16 10:50:04,007 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:04,008 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:04,008 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 10:50:04,009 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle a9c5820b
+2026-04-16 10:50:04,009 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 10:50:04,009 [INFO] utilityguard.ManagerAgent:   → zone_4: LEAK (medium, confidence=0.85)
+2026-04-16 10:50:04,010 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 10:50:04,011 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_4
+2026-04-16 10:50:04,015 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_4
+2026-04-16 10:50:04,016 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_4 → 200 OK
+2026-04-16 10:50:04,017 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 10:50:04,017 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 10:50:04,017 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_4
+  Body:
+Issue Type: LEAK
+Severity: medium
+Affected Zone: zone_4
+Confidence: 85%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -34.09%
+  • Flow change: +65.33%
+  • Consumption change: -0.57%
+  • Pressure drop -34.09% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_4 due to LEAK (severity: medium)
+Action Success: ✅
+2026-04-16 10:50:04,018 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 10:50:04,062 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle a9c5820b completed
+2026-04-16 10:50:04,063 [INFO] utilityguard.Pipeline: 🏁 Cycle a9c5820b finished — status: completed
+2026-04-16 10:50:04,064 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_4
+2026-04-16 10:50:05,399 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_4
+2026-04-16 10:50:05,401 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:05,401 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 699a1fc6 at 2026-04-16T05:20:05.401571
+2026-04-16 10:50:05,402 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 10:50:05,403 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 10:50:05,407 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 10:50:05,427 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.6 psi (Δ-0.5%), F=12.1 lps (Δ+0.0%), C=326.4 m³ (Δ+1.7%)
+2026-04-16 10:50:05,447 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=52.8 psi (Δ-0.8%), F=10.4 lps (Δ-0.9%), C=276.1 m³ (Δ+0.8%)
+2026-04-16 10:50:05,468 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=58.6 psi (Δ-1.1%), F=13.9 lps (Δ+0.7%), C=352.8 m³ (Δ+2.0%)
+2026-04-16 10:50:05,469 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=27.3 psi (Δ-44.6%), F=13.7 lps (Δ+48.7%), C=255.2 m³ (Δ-4.5%)
+2026-04-16 10:50:05,489 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=55.3 psi (Δ+1.9%), F=11.0 lps (Δ+2.5%), C=303.7 m³ (Δ+0.7%)
+2026-04-16 10:50:05,489 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 10:50:05,490 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 10:50:05,491 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:05,492 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:05,492 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:05,492 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:05,492 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:05,493 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:05,493 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:05,493 [INFO] utilityguard.ReasoningAgent: Zone zone_4: LEAK (severity=high, confidence=0.95)
+2026-04-16 10:50:05,494 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 10:50:05,494 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 10:50:05,495 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 10:50:05,496 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 699a1fc6
+2026-04-16 10:50:05,496 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 10:50:05,496 [INFO] utilityguard.ManagerAgent:   → zone_4: LEAK (high, confidence=0.95)
+2026-04-16 10:50:05,497 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 10:50:05,497 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_4
+2026-04-16 10:50:05,502 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_4
+2026-04-16 10:50:05,503 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_4 → 200 OK
+2026-04-16 10:50:05,504 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 10:50:05,504 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 10:50:05,504 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_4
+  Body:
+Issue Type: LEAK
+Severity: high
+Affected Zone: zone_4
+Confidence: 95%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -44.56%
+  • Flow change: +48.70%
+  • Consumption change: -4.55%
+  • Pressure drop -44.56% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_4 due to LEAK (severity: high)
+Action Success: ✅
+2026-04-16 10:50:05,505 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 10:50:05,549 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 699a1fc6 completed
+2026-04-16 10:50:05,552 [INFO] utilityguard.Pipeline: 🏁 Cycle 699a1fc6 finished — status: completed
+2026-04-16 10:50:05,552 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_4
+2026-04-16 17:58:36,807 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 17:58:36,812 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 33b06a57 at 2026-04-16T12:28:36.812039
+2026-04-16 17:58:36,812 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 17:58:36,813 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 17:58:36,835 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 17:58:36,849 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.8 psi (Δ+0.4%), F=11.8 lps (Δ-2.6%), C=322.9 m³ (Δ-1.1%)
+2026-04-16 17:58:36,859 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=50.7 psi (Δ-4.0%), F=10.4 lps (Δ+0.2%), C=287.1 m³ (Δ+4.0%)
+2026-04-16 17:58:36,868 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=56.8 psi (Δ-3.1%), F=14.3 lps (Δ+2.9%), C=341.8 m³ (Δ-3.1%)
+2026-04-16 17:58:36,876 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=50.0 psi (Δ+1.6%), F=8.7 lps (Δ-5.0%), C=258.0 m³ (Δ-3.5%)
+2026-04-16 17:58:36,886 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=52.6 psi (Δ-4.9%), F=11.0 lps (Δ-0.5%), C=292.2 m³ (Δ-3.8%)
+2026-04-16 17:58:36,886 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 17:58:36,886 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 17:58:36,887 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 17:58:36,889 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 17:58:36,890 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 17:58:36,890 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 17:58:36,890 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 17:58:36,890 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 17:58:36,890 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 17:58:36,890 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-16 17:58:36,890 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 17:58:36,891 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 17:58:36,891 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 17:58:36,891 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 33b06a57
+2026-04-16 17:58:36,891 [INFO] utilityguard.ManagerAgent: Plan: 0 anomalies detected out of 5 zones
+2026-04-16 17:58:36,891 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 17:58:36,893 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 17:58:36,893 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 17:58:36,894 [INFO] utilityguard.NotificationAgent: No anomalies detected — no notifications needed
+2026-04-16 17:58:36,904 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 33b06a57 completed
+2026-04-16 17:58:36,904 [INFO] utilityguard.Pipeline: 🏁 Cycle 33b06a57 finished — status: completed
+2026-04-16 18:19:22,857 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_1
+2026-04-16 18:19:22,859 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:19:22,859 [INFO] utilityguard.Pipeline: 🔄 Starting cycle a4fbf67e at 2026-04-16T12:49:22.859976
+2026-04-16 18:19:22,859 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:19:22,859 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 18:19:22,865 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 18:19:22,866 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=33.5 psi (Δ-40.0%), F=21.0 lps (Δ+78.6%), C=329.4 m³ (Δ+2.0%)
+2026-04-16 18:19:22,879 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=50.9 psi (Δ+0.4%), F=10.3 lps (Δ-1.2%), C=282.0 m³ (Δ-1.8%)
+2026-04-16 18:19:22,892 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=57.4 psi (Δ+1.1%), F=14.0 lps (Δ-2.5%), C=357.4 m³ (Δ+4.6%)
+2026-04-16 18:19:22,904 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.7 psi (Δ-0.5%), F=8.9 lps (Δ+1.4%), C=266.7 m³ (Δ+3.4%)
+2026-04-16 18:19:22,916 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.5 psi (Δ+3.7%), F=11.1 lps (Δ+0.9%), C=297.1 m³ (Δ+1.7%)
+2026-04-16 18:19:22,917 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 18:19:22,917 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 18:19:22,917 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:22,919 [INFO] utilityguard.ReasoningAgent: Zone zone_1: LEAK (severity=high, confidence=0.95)
+2026-04-16 18:19:22,920 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:22,920 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:22,920 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:22,920 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:22,920 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:22,920 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:22,920 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:22,921 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:22,921 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 18:19:22,921 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle a4fbf67e
+2026-04-16 18:19:22,921 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 18:19:22,921 [INFO] utilityguard.ManagerAgent:   → zone_1: LEAK (high, confidence=0.95)
+2026-04-16 18:19:22,921 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 18:19:22,921 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_1
+2026-04-16 18:19:22,925 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_1
+2026-04-16 18:19:22,926 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_1 → 200 OK
+2026-04-16 18:19:22,928 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 18:19:22,928 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 18:19:22,928 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_1
+  Body:
+Issue Type: LEAK
+Severity: high
+Affected Zone: zone_1
+Confidence: 95%
+Recommended Action: Close valve and dispatch repair crew
+
+Reasoning:
+  • Pressure change: -40.04%
+  • Flow change: +78.64%
+  • Consumption change: +2.00%
+  • Pressure drop -40.04% exceeds -20% threshold → LEAK
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_1 due to LEAK (severity: high)
+Action Success: ✅
+2026-04-16 18:19:22,929 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 18:19:22,955 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle a4fbf67e completed
+2026-04-16 18:19:22,955 [INFO] utilityguard.Pipeline: 🏁 Cycle a4fbf67e finished — status: completed
+2026-04-16 18:19:22,955 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_1
+2026-04-16 18:19:31,344 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting SHORTAGE into zone_1
+2026-04-16 18:19:31,345 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:19:31,345 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 478d4d17 at 2026-04-16T12:49:31.345661
+2026-04-16 18:19:31,345 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:19:31,345 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 18:19:31,347 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 18:19:31,348 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=53.2 psi (Δ-4.7%), F=11.8 lps (Δ+0.6%), C=476.0 m³ (Δ+47.4%)
+2026-04-16 18:19:31,360 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=51.2 psi (Δ+0.7%), F=10.2 lps (Δ-0.7%), C=277.4 m³ (Δ-1.6%)
+2026-04-16 18:19:31,372 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=59.3 psi (Δ+3.3%), F=14.2 lps (Δ+1.7%), C=352.0 m³ (Δ-1.5%)
+2026-04-16 18:19:31,389 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=51.1 psi (Δ+2.8%), F=9.2 lps (Δ+3.4%), C=257.3 m³ (Δ-3.5%)
+2026-04-16 18:19:31,408 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=52.5 psi (Δ-3.8%), F=11.1 lps (Δ+0.3%), C=291.3 m³ (Δ-2.0%)
+2026-04-16 18:19:31,409 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 18:19:31,409 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 18:19:31,409 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:31,409 [INFO] utilityguard.ReasoningAgent: Zone zone_1: SHORTAGE (severity=medium, confidence=0.80)
+2026-04-16 18:19:31,410 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:31,410 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:31,410 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:31,410 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:31,410 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:31,410 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:31,410 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:31,410 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:31,411 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 18:19:31,411 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 478d4d17
+2026-04-16 18:19:31,411 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 18:19:31,411 [INFO] utilityguard.ManagerAgent:   → zone_1: SHORTAGE (medium, confidence=0.80)
+2026-04-16 18:19:31,411 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 18:19:31,411 [INFO] utilityguard.ActionAgent: 🔄 Rerouting resources to zone zone_1
+2026-04-16 18:19:31,415 [DEBUG] utilityguard.ActionAgent: CRM entry written: resource_rerouted for zone_1
+2026-04-16 18:19:31,416 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/reroute_resources — zone=zone_1 → 200 OK
+2026-04-16 18:19:31,417 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 18:19:31,417 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 18:19:31,417 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: SHORTAGE in zone_1
+  Body:
+Issue Type: SHORTAGE
+Severity: medium
+Affected Zone: zone_1
+Confidence: 80%
+Recommended Action: Reroute resources from adjacent zones and alert consumers
+
+Reasoning:
+  • Pressure change: -4.71%
+  • Flow change: +0.60%
+  • Consumption change: +47.40%
+  • Consumption spike +47.40% with stable pressure → SHORTAGE
+
+Action Taken: resource_rerouted
+Action Details: Resources rerouted to zone_1 due to SHORTAGE (severity: medium)
+Action Success: ✅
+2026-04-16 18:19:31,417 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 18:19:31,447 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 478d4d17 completed
+2026-04-16 18:19:31,448 [INFO] utilityguard.Pipeline: 🏁 Cycle 478d4d17 finished — status: completed
+2026-04-16 18:19:31,449 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_1
+2026-04-16 18:19:51,247 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:19:51,247 [INFO] utilityguard.Pipeline: 🔄 Starting cycle f473f97a at 2026-04-16T12:49:51.247625
+2026-04-16 18:19:51,247 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:19:51,247 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 18:19:51,251 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 18:19:51,261 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.6 psi (Δ-0.4%), F=11.7 lps (Δ-0.3%), C=327.1 m³ (Δ+1.3%)
+2026-04-16 18:19:51,274 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=53.0 psi (Δ+3.5%), F=10.3 lps (Δ+0.4%), C=285.3 m³ (Δ+2.8%)
+2026-04-16 18:19:51,286 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=58.5 psi (Δ-1.4%), F=13.7 lps (Δ-3.9%), C=359.8 m³ (Δ+2.2%)
+2026-04-16 18:19:51,298 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.6 psi (Δ-3.0%), F=8.9 lps (Δ-2.6%), C=257.1 m³ (Δ-0.1%)
+2026-04-16 18:19:51,308 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=54.9 psi (Δ+4.7%), F=10.9 lps (Δ-2.2%), C=299.8 m³ (Δ+2.9%)
+2026-04-16 18:19:51,308 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 18:19:51,309 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 18:19:51,309 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:51,309 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:51,309 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:51,309 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:51,309 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:51,310 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:51,310 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:51,310 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:51,310 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:19:51,310 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:19:51,310 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 18:19:51,311 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle f473f97a
+2026-04-16 18:19:51,311 [INFO] utilityguard.ManagerAgent: Plan: 0 anomalies detected out of 5 zones
+2026-04-16 18:19:51,311 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 18:19:51,311 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 18:19:51,311 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 18:19:51,311 [INFO] utilityguard.NotificationAgent: No anomalies detected — no notifications needed
+2026-04-16 18:19:51,326 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle f473f97a completed
+2026-04-16 18:19:51,326 [INFO] utilityguard.Pipeline: 🏁 Cycle f473f97a finished — status: completed
+2026-04-16 18:20:02,143 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:20:02,143 [INFO] utilityguard.Pipeline: 🔄 Starting cycle 427743ff at 2026-04-16T12:50:02.143816
+2026-04-16 18:20:02,144 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:20:02,144 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 18:20:02,147 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 18:20:02,161 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=55.4 psi (Δ-0.3%), F=12.3 lps (Δ+4.8%), C=314.2 m³ (Δ-3.9%)
+2026-04-16 18:20:02,175 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=51.0 psi (Δ-3.8%), F=10.2 lps (Δ-0.4%), C=281.0 m³ (Δ-1.5%)
+2026-04-16 18:20:02,187 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=57.0 psi (Δ-2.4%), F=13.6 lps (Δ-0.6%), C=359.4 m³ (Δ-0.1%)
+2026-04-16 18:20:02,200 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=50.2 psi (Δ+1.3%), F=8.8 lps (Δ-1.0%), C=261.5 m³ (Δ+1.7%)
+2026-04-16 18:20:02,214 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=53.7 psi (Δ-2.2%), F=10.8 lps (Δ-0.5%), C=303.1 m³ (Δ+1.1%)
+2026-04-16 18:20:02,214 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 18:20:02,215 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 18:20:02,215 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_1: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:20:02,215 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:20:02,215 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_2: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:20:02,215 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:20:02,215 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_3: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:20:02,215 [INFO] utilityguard.ReasoningAgent: Zone zone_3: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:20:02,216 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_4: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:20:02,216 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:20:02,216 [WARNING] utilityguard.ReasoningAgent: Gemini failed for zone_5: Gemini not configured. Using rule-based fallback.
+2026-04-16 18:20:02,216 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=0.90)
+2026-04-16 18:20:02,216 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 18:20:02,216 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle 427743ff
+2026-04-16 18:20:02,216 [INFO] utilityguard.ManagerAgent: Plan: 0 anomalies detected out of 5 zones
+2026-04-16 18:20:02,216 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 18:20:02,217 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 18:20:02,217 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 18:20:02,217 [INFO] utilityguard.NotificationAgent: No anomalies detected — no notifications needed
+2026-04-16 18:20:02,230 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle 427743ff completed
+2026-04-16 18:20:02,230 [INFO] utilityguard.Pipeline: 🏁 Cycle 427743ff finished — status: completed
+2026-04-16 18:33:54,447 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Injecting LEAK into zone_3
+2026-04-16 18:33:54,449 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:33:54,450 [INFO] utilityguard.Pipeline: 🔄 Starting cycle be550ed7 at 2026-04-16T13:03:54.450492
+2026-04-16 18:33:54,451 [INFO] utilityguard.Pipeline: ============================================================
+2026-04-16 18:33:54,452 [INFO] utilityguard.PerceptionAgent: 🔍 PerceptionAgent cycle started
+2026-04-16 18:33:54,460 [INFO] utilityguard.PerceptionAgent: Generated readings for 5 zones
+2026-04-16 18:33:54,483 [DEBUG] utilityguard.PerceptionAgent: Zone zone_1: P=54.2 psi (Δ-2.2%), F=12.3 lps (Δ+0.2%), C=314.3 m³ (Δ+0.0%)
+2026-04-16 18:33:54,504 [DEBUG] utilityguard.PerceptionAgent: Zone zone_2: P=53.1 psi (Δ+4.1%), F=10.6 lps (Δ+3.0%), C=271.9 m³ (Δ-3.2%)
+2026-04-16 18:33:54,504 [DEBUG] utilityguard.PerceptionAgent: Zone zone_3: P=37.4 psi (Δ-34.4%), F=22.2 lps (Δ+63.7%), C=345.8 m³ (Δ-3.8%)
+2026-04-16 18:33:54,523 [DEBUG] utilityguard.PerceptionAgent: Zone zone_4: P=49.7 psi (Δ-1.1%), F=9.0 lps (Δ+1.7%), C=265.4 m³ (Δ+1.5%)
+2026-04-16 18:33:54,541 [DEBUG] utilityguard.PerceptionAgent: Zone zone_5: P=52.9 psi (Δ-1.4%), F=10.9 lps (Δ+0.7%), C=299.2 m³ (Δ-1.3%)
+2026-04-16 18:33:54,541 [INFO] utilityguard.PerceptionAgent: ✅ PerceptionAgent completed — 5 zone outputs
+2026-04-16 18:33:54,542 [INFO] utilityguard.ReasoningAgent: 🧠 ReasoningAgent cycle started — 5 zones
+2026-04-16 18:33:57,670 [INFO] utilityguard.ReasoningAgent: Zone zone_1: NORMAL (severity=low, confidence=1.00)
+2026-04-16 18:34:00,250 [INFO] utilityguard.ReasoningAgent: Zone zone_2: NORMAL (severity=low, confidence=0.98)
+2026-04-16 18:34:03,097 [INFO] utilityguard.ReasoningAgent: Zone zone_3: LEAK (severity=high, confidence=0.99)
+2026-04-16 18:34:05,759 [INFO] utilityguard.ReasoningAgent: Zone zone_4: NORMAL (severity=low, confidence=1.00)
+2026-04-16 18:34:08,302 [INFO] utilityguard.ReasoningAgent: Zone zone_5: NORMAL (severity=low, confidence=1.00)
+2026-04-16 18:34:08,302 [INFO] utilityguard.ReasoningAgent: ✅ ReasoningAgent completed — 5 classifications
+2026-04-16 18:34:08,302 [INFO] utilityguard.ManagerAgent: 🎯 ManagerAgent orchestrating cycle be550ed7
+2026-04-16 18:34:08,302 [INFO] utilityguard.ManagerAgent: Plan: 1 anomalies detected out of 5 zones
+2026-04-16 18:34:08,303 [INFO] utilityguard.ManagerAgent:   → zone_3: LEAK (high, confidence=0.99)
+2026-04-16 18:34:08,303 [INFO] utilityguard.ActionAgent: ⚡ ActionAgent cycle started — 5 classifications
+2026-04-16 18:34:08,304 [INFO] utilityguard.ActionAgent: 🔧 Closing valve for zone zone_3
+2026-04-16 18:34:08,313 [DEBUG] utilityguard.ActionAgent: CRM entry written: valve_closed for zone_3
+2026-04-16 18:34:08,314 [INFO] utilityguard.ActionAgent: 📡 Mock API call: POST /api/close_valve — zone=zone_3 → 200 OK
+2026-04-16 18:34:08,315 [INFO] utilityguard.ActionAgent: ✅ ActionAgent completed — 5 actions
+2026-04-16 18:34:08,316 [INFO] utilityguard.NotificationAgent: 📨 NotificationAgent cycle started
+2026-04-16 18:34:08,317 [INFO] utilityguard.NotificationAgent: 📋 LOG-ONLY notification:
+  Subject: 🚨 UtilityGuard Alert: LEAK in zone_3
+  Body:
+Issue Type: LEAK
+Severity: high
+Affected Zone: zone_3
+Confidence: 99%
+Recommended Action: Immediately dispatch repair teams to zone_3 for leak detection and repair. Monitor pressure and flow in real-time for further anomalies.
+
+Reasoning:
+  • Pressure drop of -34.38% exceeds the 20% threshold for a LEAK classification.
+  • Flow rate increase of +63.72% exceeds the 30% threshold for a LEAK classification.
+  • Consumption change of -3.78% is stable (well below 30% spike), ruling out SHORTAGE.
+  • Pressure drop magnitude (-34.38%) and flow increase magnitude (+63.72%) both indicate high severity.
+  • No conflicting indicators; LEAK is the only applicable classification.
+
+Action Taken: valve_closed
+Action Details: Valve closed for zone_3 due to LEAK (severity: high)
+Action Success: ✅
+2026-04-16 18:34:08,318 [INFO] utilityguard.NotificationAgent: ✅ NotificationAgent completed — 1 notifications sent
+2026-04-16 18:34:08,381 [INFO] utilityguard.ManagerAgent: ✅ ManagerAgent cycle be550ed7 completed
+2026-04-16 18:34:08,381 [INFO] utilityguard.Pipeline: 🏁 Cycle be550ed7 finished — status: completed
+2026-04-16 18:34:08,381 [INFO] utilityguard.Pipeline: 🧪 SIMULATION: Cleared anomaly for zone_3

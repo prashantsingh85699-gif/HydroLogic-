@@ -1,0 +1,106 @@
+[
+  {
+    "zone_id": "zone_3",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "medium",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-15T17:58:28.153787"
+  },
+  {
+    "zone_id": "zone_3",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "medium",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-15T18:06:03.909533"
+  },
+  {
+    "zone_id": "zone_3",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "medium",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-15T18:24:11.203107"
+  },
+  {
+    "zone_id": "zone_3",
+    "action": "resource_rerouted",
+    "issue_type": "SHORTAGE",
+    "severity": "medium",
+    "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+    "timestamp": "2026-04-15T18:24:13.867797"
+  },
+  {
+    "zone_id": "zone_3",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "high",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-15T18:24:15.878196"
+  },
+  {
+    "zone_id": "zone_4",
+    "action": "resource_rerouted",
+    "issue_type": "SHORTAGE",
+    "severity": "medium",
+    "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+    "timestamp": "2026-04-16T05:19:59.746093"
+  },
+  {
+    "zone_id": "zone_4",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "high",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-16T05:20:01.031178"
+  },
+  {
+    "zone_id": "zone_4",
+    "action": "resource_rerouted",
+    "issue_type": "SHORTAGE",
+    "severity": "medium",
+    "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+    "timestamp": "2026-04-16T05:20:02.689316"
+  },
+  {
+    "zone_id": "zone_4",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "medium",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-16T05:20:04.012234"
+  },
+  {
+    "zone_id": "zone_4",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "high",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-16T05:20:05.498745"
+  },
+  {
+    "zone_id": "zone_1",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "high",
+    "recommended_action": "Close valve and dispatch repair crew",
+    "timestamp": "2026-04-16T12:49:22.923339"
+  },
+  {
+    "zone_id": "zone_1",
+    "action": "resource_rerouted",
+    "issue_type": "SHORTAGE",
+    "severity": "medium",
+    "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+    "timestamp": "2026-04-16T12:49:31.413535"
+  },
+  {
+    "zone_id": "zone_3",
+    "action": "valve_closed",
+    "issue_type": "LEAK",
+    "severity": "high",
+    "recommended_action": "Immediately dispatch repair teams to zone_3 for leak detection and repair. Monitor pressure and flow in real-time for further anomalies.",
+    "timestamp": "2026-04-16T13:04:08.308025"
+  }
+]

@@ -1,0 +1,11 @@
+.env
+data/*.db
+__pycache__/
+*.pyc
+.streamlit/config.toml
+.streamlit/secrets.toml
+dist/
+build/
+.ipynb_checkpoints/
+.DS_Store
+node_modules/

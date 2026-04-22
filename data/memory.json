@@ -1,0 +1,3186 @@
+{
+  "baselines": {
+    "zone_1": {
+      "pressure_psi": 54.16,
+      "flow_rate_lps": 12.3,
+      "consumption_m3": 314.28
+    },
+    "zone_2": {
+      "pressure_psi": 53.12,
+      "flow_rate_lps": 10.56,
+      "consumption_m3": 271.88
+    },
+    "zone_3": {
+      "pressure_psi": 57.04,
+      "flow_rate_lps": 13.59,
+      "consumption_m3": 359.37
+    },
+    "zone_4": {
+      "pressure_psi": 49.66,
+      "flow_rate_lps": 8.98,
+      "consumption_m3": 265.42
+    },
+    "zone_5": {
+      "pressure_psi": 52.94,
+      "flow_rate_lps": 10.89,
+      "consumption_m3": 299.16
+    }
+  },
+  "cycle_summaries": [
+    {
+      "cycle_id": "3b46db74",
+      "timestamp": "2026-04-15T17:48:41.872167",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T17:48:41.823249",
+          "pressure_psi": 56.32,
+          "flow_rate_lps": 11.85,
+          "consumption_m3": 328.86,
+          "pressure_change_pct": 0.024,
+          "flow_change_pct": -0.0125,
+          "consumption_change_pct": 0.0277
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T17:48:41.823249",
+          "pressure_psi": 51.5,
+          "flow_rate_lps": 10.47,
+          "consumption_m3": 282.82,
+          "pressure_change_pct": -0.0096,
+          "flow_change_pct": -0.0029,
+          "consumption_change_pct": 0.0101
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T17:48:41.823249",
+          "pressure_psi": 59.36,
+          "flow_rate_lps": 13.88,
+          "consumption_m3": 351.3,
+          "pressure_change_pct": 0.0234,
+          "flow_change_pct": -0.0086,
+          "consumption_change_pct": 0.0037
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T17:48:41.823249",
+          "pressure_psi": 48.86,
+          "flow_rate_lps": 8.91,
+          "consumption_m3": 264.01,
+          "pressure_change_pct": -0.0228,
+          "flow_change_pct": -0.01,
+          "consumption_change_pct": 0.0154
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T17:48:41.823249",
+          "pressure_psi": 54.91,
+          "flow_rate_lps": 11.3,
+          "consumption_m3": 308.98,
+          "pressure_change_pct": 0.0169,
+          "flow_change_pct": 0.0273,
+          "consumption_change_pct": 0.0299
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +2.40%",
+            "Flow change: -1.25%",
+            "Consumption change: +2.77%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.96%",
+            "Flow change: -0.29%",
+            "Consumption change: +1.01%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +2.34%",
+            "Flow change: -0.86%",
+            "Consumption change: +0.37%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -2.28%",
+            "Flow change: -1.00%",
+            "Consumption change: +1.54%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.69%",
+            "Flow change: +2.73%",
+            "Consumption change: +2.99%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:48:41.872167"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:48:41.872167"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:48:41.872167"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:48:41.872167"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:48:41.872167"
+        }
+      ],
+      "notifications": [],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "a17abfdb",
+      "timestamp": "2026-04-15T17:54:38.713826",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T17:54:38.642210",
+          "pressure_psi": 55.3,
+          "flow_rate_lps": 11.9,
+          "consumption_m3": 322.78,
+          "pressure_change_pct": -0.0181,
+          "flow_change_pct": 0.0042,
+          "consumption_change_pct": -0.0185
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T17:54:38.642210",
+          "pressure_psi": 50.69,
+          "flow_rate_lps": 10.34,
+          "consumption_m3": 282.33,
+          "pressure_change_pct": -0.0157,
+          "flow_change_pct": -0.0124,
+          "consumption_change_pct": -0.0017
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T17:54:38.642210",
+          "pressure_psi": 59.32,
+          "flow_rate_lps": 14.14,
+          "consumption_m3": 344.7,
+          "pressure_change_pct": -0.0007,
+          "flow_change_pct": 0.0187,
+          "consumption_change_pct": -0.0188
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T17:54:38.642210",
+          "pressure_psi": 51.48,
+          "flow_rate_lps": 9.04,
+          "consumption_m3": 259.59,
+          "pressure_change_pct": 0.0536,
+          "flow_change_pct": 0.0146,
+          "consumption_change_pct": -0.0167
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T17:54:38.642210",
+          "pressure_psi": 53.1,
+          "flow_rate_lps": 11.12,
+          "consumption_m3": 296.15,
+          "pressure_change_pct": -0.033,
+          "flow_change_pct": -0.0159,
+          "consumption_change_pct": -0.0415
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -1.81%",
+            "Flow change: +0.42%",
+            "Consumption change: -1.85%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -1.57%",
+            "Flow change: -1.24%",
+            "Consumption change: -0.17%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.07%",
+            "Flow change: +1.87%",
+            "Consumption change: -1.88%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +5.36%",
+            "Flow change: +1.46%",
+            "Consumption change: -1.67%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.30%",
+            "Flow change: -1.59%",
+            "Consumption change: -4.15%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:54:38.712648"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:54:38.713248"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:54:38.713248"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:54:38.713248"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:54:38.713248"
+        }
+      ],
+      "notifications": [],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "b1764e42",
+      "timestamp": "2026-04-15T17:58:28.157782",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T17:58:28.126626",
+          "pressure_psi": 55.72,
+          "flow_rate_lps": 11.78,
+          "consumption_m3": 320.23,
+          "pressure_change_pct": 0.0076,
+          "flow_change_pct": -0.0101,
+          "consumption_change_pct": -0.0079
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T17:58:28.126626",
+          "pressure_psi": 52.85,
+          "flow_rate_lps": 10.51,
+          "consumption_m3": 279.34,
+          "pressure_change_pct": 0.0426,
+          "flow_change_pct": 0.0164,
+          "consumption_change_pct": -0.0106
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T17:58:28.126626",
+          "pressure_psi": 40.53,
+          "flow_rate_lps": 24.52,
+          "consumption_m3": 347.82,
+          "pressure_change_pct": -0.3168,
+          "flow_change_pct": 0.7341,
+          "consumption_change_pct": 0.0091
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T17:58:28.126626",
+          "pressure_psi": 49.57,
+          "flow_rate_lps": 9.22,
+          "consumption_m3": 263.72,
+          "pressure_change_pct": -0.0371,
+          "flow_change_pct": 0.0199,
+          "consumption_change_pct": 0.0159
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T17:58:28.126626",
+          "pressure_psi": 53.68,
+          "flow_rate_lps": 10.92,
+          "consumption_m3": 294.38,
+          "pressure_change_pct": 0.0109,
+          "flow_change_pct": -0.018,
+          "consumption_change_pct": -0.006
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.76%",
+            "Flow change: -1.01%",
+            "Consumption change: -0.79%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +4.26%",
+            "Flow change: +1.64%",
+            "Consumption change: -1.06%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "medium",
+          "affected_zone": "zone_3",
+          "confidence": 0.85,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -31.68%",
+            "Flow change: +73.41%",
+            "Consumption change: +0.91%",
+            "Pressure drop -31.68% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.71%",
+            "Flow change: +1.99%",
+            "Consumption change: +1.59%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.09%",
+            "Flow change: -1.80%",
+            "Consumption change: -0.60%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:58:28.153064"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:58:28.153064"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_3 due to LEAK (severity: medium)",
+          "timestamp": "2026-04-15T17:58:28.157208"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:58:28.157208"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T17:58:28.157208"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-15T17:58:28.157782"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "035e983f",
+      "timestamp": "2026-04-15T18:06:03.979853",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T18:06:03.491469",
+          "pressure_psi": 53.78,
+          "flow_rate_lps": 12.1,
+          "consumption_m3": 318.63,
+          "pressure_change_pct": -0.0348,
+          "flow_change_pct": 0.0272,
+          "consumption_change_pct": -0.005
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T18:06:03.491469",
+          "pressure_psi": 51.43,
+          "flow_rate_lps": 10.48,
+          "consumption_m3": 285.83,
+          "pressure_change_pct": -0.0269,
+          "flow_change_pct": -0.0029,
+          "consumption_change_pct": 0.0232
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T18:06:03.491469",
+          "pressure_psi": 40.87,
+          "flow_rate_lps": 23.48,
+          "consumption_m3": 347.55,
+          "pressure_change_pct": -0.311,
+          "flow_change_pct": 0.6605,
+          "consumption_change_pct": 0.0083
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T18:06:03.491469",
+          "pressure_psi": 49.41,
+          "flow_rate_lps": 8.82,
+          "consumption_m3": 260.54,
+          "pressure_change_pct": -0.0032,
+          "flow_change_pct": -0.0434,
+          "consumption_change_pct": -0.0121
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T18:06:03.491469",
+          "pressure_psi": 54.06,
+          "flow_rate_lps": 10.97,
+          "consumption_m3": 302.04,
+          "pressure_change_pct": 0.0071,
+          "flow_change_pct": 0.0046,
+          "consumption_change_pct": 0.026
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.48%",
+            "Flow change: +2.72%",
+            "Consumption change: -0.50%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -2.69%",
+            "Flow change: -0.29%",
+            "Consumption change: +2.32%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "medium",
+          "affected_zone": "zone_3",
+          "confidence": 0.85,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -31.10%",
+            "Flow change: +66.05%",
+            "Consumption change: +0.83%",
+            "Pressure drop -31.10% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.32%",
+            "Flow change: -4.34%",
+            "Consumption change: -1.21%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.71%",
+            "Flow change: +0.46%",
+            "Consumption change: +2.60%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:06:03.884399"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:06:03.885421"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_3 due to LEAK (severity: medium)",
+          "timestamp": "2026-04-15T18:06:03.931335"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:06:03.931335"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:06:03.931335"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-15T18:06:03.961324"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "57a5f8e6",
+      "timestamp": "2026-04-15T18:24:11.217954",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T18:24:11.024887",
+          "pressure_psi": 55.18,
+          "flow_rate_lps": 11.65,
+          "consumption_m3": 325.87,
+          "pressure_change_pct": 0.026,
+          "flow_change_pct": -0.0372,
+          "consumption_change_pct": 0.0227
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T18:24:11.024887",
+          "pressure_psi": 52.38,
+          "flow_rate_lps": 10.78,
+          "consumption_m3": 279.32,
+          "pressure_change_pct": 0.0185,
+          "flow_change_pct": 0.0286,
+          "consumption_change_pct": -0.0228
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T18:24:11.024887",
+          "pressure_psi": 39.43,
+          "flow_rate_lps": 24.01,
+          "consumption_m3": 352.91,
+          "pressure_change_pct": -0.3353,
+          "flow_change_pct": 0.698,
+          "consumption_change_pct": 0.0238
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T18:24:11.024887",
+          "pressure_psi": 48.79,
+          "flow_rate_lps": 8.92,
+          "consumption_m3": 257.04,
+          "pressure_change_pct": -0.0125,
+          "flow_change_pct": 0.0113,
+          "consumption_change_pct": -0.0134
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T18:24:11.024887",
+          "pressure_psi": 53.95,
+          "flow_rate_lps": 10.82,
+          "consumption_m3": 296.59,
+          "pressure_change_pct": -0.002,
+          "flow_change_pct": -0.0137,
+          "consumption_change_pct": -0.018
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +2.60%",
+            "Flow change: -3.72%",
+            "Consumption change: +2.27%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.85%",
+            "Flow change: +2.86%",
+            "Consumption change: -2.28%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "medium",
+          "affected_zone": "zone_3",
+          "confidence": 0.85,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -33.53%",
+            "Flow change: +69.80%",
+            "Consumption change: +2.38%",
+            "Pressure drop -33.53% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -1.25%",
+            "Flow change: +1.13%",
+            "Consumption change: -1.34%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.20%",
+            "Flow change: -1.37%",
+            "Consumption change: -1.80%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:11.175243"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:11.175851"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_3 due to LEAK (severity: medium)",
+          "timestamp": "2026-04-15T18:24:11.208858"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:11.208858"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:11.208858"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-15T18:24:11.216592"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "d3505d42",
+      "timestamp": "2026-04-15T18:24:13.882156",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T18:24:13.776423",
+          "pressure_psi": 54.96,
+          "flow_rate_lps": 11.85,
+          "consumption_m3": 315.13,
+          "pressure_change_pct": -0.004,
+          "flow_change_pct": 0.0172,
+          "consumption_change_pct": -0.033
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T18:24:13.776423",
+          "pressure_psi": 52.82,
+          "flow_rate_lps": 10.32,
+          "consumption_m3": 287.37,
+          "pressure_change_pct": 0.0084,
+          "flow_change_pct": -0.0427,
+          "consumption_change_pct": 0.0288
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T18:24:13.776423",
+          "pressure_psi": 57.77,
+          "flow_rate_lps": 14.06,
+          "consumption_m3": 476.07,
+          "pressure_change_pct": -0.0261,
+          "flow_change_pct": -0.0057,
+          "consumption_change_pct": 0.3811
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T18:24:13.776423",
+          "pressure_psi": 50.39,
+          "flow_rate_lps": 8.98,
+          "consumption_m3": 266.65,
+          "pressure_change_pct": 0.0328,
+          "flow_change_pct": 0.0067,
+          "consumption_change_pct": 0.0374
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T18:24:13.776423",
+          "pressure_psi": 54.96,
+          "flow_rate_lps": 11.3,
+          "consumption_m3": 292.57,
+          "pressure_change_pct": 0.0187,
+          "flow_change_pct": 0.0444,
+          "consumption_change_pct": -0.0136
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.40%",
+            "Flow change: +1.72%",
+            "Consumption change: -3.30%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.84%",
+            "Flow change: -4.27%",
+            "Consumption change: +2.88%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "SHORTAGE",
+          "severity": "medium",
+          "affected_zone": "zone_3",
+          "confidence": 0.8,
+          "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+          "reasoning_steps": [
+            "Pressure change: -2.61%",
+            "Flow change: -0.57%",
+            "Consumption change: +38.11%",
+            "Consumption spike +38.11% with stable pressure \u2192 SHORTAGE"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +3.28%",
+            "Flow change: +0.67%",
+            "Consumption change: +3.74%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.87%",
+            "Flow change: +4.44%",
+            "Consumption change: -1.36%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:13.862345"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:13.862345"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "resource_rerouted",
+          "success": true,
+          "details": "Resources rerouted to zone_3 due to SHORTAGE (severity: medium)",
+          "timestamp": "2026-04-15T18:24:13.879327"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:13.879327"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:13.879327"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-15T18:24:13.881042"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "b08f8949",
+      "timestamp": "2026-04-15T18:24:15.883020",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-15T18:24:15.813013",
+          "pressure_psi": 55.76,
+          "flow_rate_lps": 12.06,
+          "consumption_m3": 325.89,
+          "pressure_change_pct": 0.0146,
+          "flow_change_pct": 0.0177,
+          "consumption_change_pct": 0.0341
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-15T18:24:15.813013",
+          "pressure_psi": 53.04,
+          "flow_rate_lps": 10.5,
+          "consumption_m3": 283.86,
+          "pressure_change_pct": 0.0042,
+          "flow_change_pct": 0.0174,
+          "consumption_change_pct": -0.0122
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-15T18:24:15.813013",
+          "pressure_psi": 37.08,
+          "flow_rate_lps": 22.93,
+          "consumption_m3": 356.43,
+          "pressure_change_pct": -0.3749,
+          "flow_change_pct": 0.6216,
+          "consumption_change_pct": 0.034
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-15T18:24:15.813013",
+          "pressure_psi": 49.17,
+          "flow_rate_lps": 9.2,
+          "consumption_m3": 267.43,
+          "pressure_change_pct": -0.0242,
+          "flow_change_pct": 0.0245,
+          "consumption_change_pct": 0.0029
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-15T18:24:15.813013",
+          "pressure_psi": 54.19,
+          "flow_rate_lps": 11.28,
+          "consumption_m3": 304.28,
+          "pressure_change_pct": -0.014,
+          "flow_change_pct": -0.0018,
+          "consumption_change_pct": 0.04
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.46%",
+            "Flow change: +1.77%",
+            "Consumption change: +3.41%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.42%",
+            "Flow change: +1.74%",
+            "Consumption change: -1.22%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "high",
+          "affected_zone": "zone_3",
+          "confidence": 0.95,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -37.49%",
+            "Flow change: +62.16%",
+            "Consumption change: +3.40%",
+            "Pressure drop -37.49% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -2.42%",
+            "Flow change: +2.45%",
+            "Consumption change: +0.29%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -1.40%",
+            "Flow change: -0.18%",
+            "Consumption change: +4.00%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:15.875229"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:15.875229"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_3 due to LEAK (severity: high)",
+          "timestamp": "2026-04-15T18:24:15.881338"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:15.881338"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-15T18:24:15.881338"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-15T18:24:15.882356"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "8a3fc53c",
+      "timestamp": "2026-04-16T05:19:59.752899",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T05:19:59.608397",
+          "pressure_psi": 53.79,
+          "flow_rate_lps": 12.22,
+          "consumption_m3": 314.19,
+          "pressure_change_pct": -0.0353,
+          "flow_change_pct": 0.0133,
+          "consumption_change_pct": -0.0359
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T05:19:59.608397",
+          "pressure_psi": 53.47,
+          "flow_rate_lps": 10.74,
+          "consumption_m3": 276.77,
+          "pressure_change_pct": 0.0081,
+          "flow_change_pct": 0.0229,
+          "consumption_change_pct": -0.025
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T05:19:59.608397",
+          "pressure_psi": 57.0,
+          "flow_rate_lps": 14.26,
+          "consumption_m3": 352.67,
+          "pressure_change_pct": -0.0391,
+          "flow_change_pct": 0.0085,
+          "consumption_change_pct": 0.0231
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T05:19:59.608397",
+          "pressure_psi": 48.22,
+          "flow_rate_lps": 8.96,
+          "consumption_m3": 380.12,
+          "pressure_change_pct": -0.0193,
+          "flow_change_pct": -0.0261,
+          "consumption_change_pct": 0.4214
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T05:19:59.608397",
+          "pressure_psi": 54.6,
+          "flow_rate_lps": 11.26,
+          "consumption_m3": 300.18,
+          "pressure_change_pct": 0.0076,
+          "flow_change_pct": -0.0018,
+          "consumption_change_pct": -0.0135
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.53%",
+            "Flow change: +1.33%",
+            "Consumption change: -3.59%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.81%",
+            "Flow change: +2.29%",
+            "Consumption change: -2.50%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.91%",
+            "Flow change: +0.85%",
+            "Consumption change: +2.31%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "SHORTAGE",
+          "severity": "medium",
+          "affected_zone": "zone_4",
+          "confidence": 0.8,
+          "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+          "reasoning_steps": [
+            "Pressure change: -1.93%",
+            "Flow change: -2.61%",
+            "Consumption change: +42.14%",
+            "Consumption spike +42.14% with stable pressure \u2192 SHORTAGE"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.76%",
+            "Flow change: -0.18%",
+            "Consumption change: -1.35%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:19:59.743591"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:19:59.743591"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:19:59.743591"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "resource_rerouted",
+          "success": true,
+          "details": "Resources rerouted to zone_4 due to SHORTAGE (severity: medium)",
+          "timestamp": "2026-04-16T05:19:59.751398"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:19:59.751398"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T05:19:59.752404"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "c563ad55",
+      "timestamp": "2026-04-16T05:20:01.038679",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T05:20:00.937892",
+          "pressure_psi": 55.65,
+          "flow_rate_lps": 12.18,
+          "consumption_m3": 326.53,
+          "pressure_change_pct": 0.0346,
+          "flow_change_pct": -0.0033,
+          "consumption_change_pct": 0.0393
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T05:20:00.937892",
+          "pressure_psi": 51.73,
+          "flow_rate_lps": 10.54,
+          "consumption_m3": 276.38,
+          "pressure_change_pct": -0.0325,
+          "flow_change_pct": -0.0186,
+          "consumption_change_pct": -0.0014
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T05:20:00.937892",
+          "pressure_psi": 57.09,
+          "flow_rate_lps": 13.71,
+          "consumption_m3": 345.77,
+          "pressure_change_pct": 0.0016,
+          "flow_change_pct": -0.0386,
+          "consumption_change_pct": -0.0196
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T05:20:00.937892",
+          "pressure_psi": 28.61,
+          "flow_rate_lps": 13.78,
+          "consumption_m3": 258.82,
+          "pressure_change_pct": -0.4181,
+          "flow_change_pct": 0.4978,
+          "consumption_change_pct": -0.0322
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T05:20:00.937892",
+          "pressure_psi": 53.48,
+          "flow_rate_lps": 11.08,
+          "consumption_m3": 305.3,
+          "pressure_change_pct": -0.0205,
+          "flow_change_pct": -0.016,
+          "consumption_change_pct": 0.0171
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +3.46%",
+            "Flow change: -0.33%",
+            "Consumption change: +3.93%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.25%",
+            "Flow change: -1.86%",
+            "Consumption change: -0.14%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.16%",
+            "Flow change: -3.86%",
+            "Consumption change: -1.96%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "high",
+          "affected_zone": "zone_4",
+          "confidence": 0.95,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -41.81%",
+            "Flow change: +49.78%",
+            "Consumption change: -3.22%",
+            "Pressure drop -41.81% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -2.05%",
+            "Flow change: -1.60%",
+            "Consumption change: +1.71%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:01.026677"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:01.026677"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:01.026677"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_4 due to LEAK (severity: high)",
+          "timestamp": "2026-04-16T05:20:01.036677"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:01.036677"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T05:20:01.038679"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "30bca74c",
+      "timestamp": "2026-04-16T05:20:02.694351",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T05:20:02.589614",
+          "pressure_psi": 56.0,
+          "flow_rate_lps": 11.91,
+          "consumption_m3": 318.34,
+          "pressure_change_pct": 0.0063,
+          "flow_change_pct": -0.0222,
+          "consumption_change_pct": -0.0251
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T05:20:02.589614",
+          "pressure_psi": 53.39,
+          "flow_rate_lps": 10.73,
+          "consumption_m3": 273.04,
+          "pressure_change_pct": 0.0321,
+          "flow_change_pct": 0.018,
+          "consumption_change_pct": -0.0121
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T05:20:02.589614",
+          "pressure_psi": 57.83,
+          "flow_rate_lps": 14.22,
+          "consumption_m3": 352.71,
+          "pressure_change_pct": 0.013,
+          "flow_change_pct": 0.0372,
+          "consumption_change_pct": 0.0201
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T05:20:02.589614",
+          "pressure_psi": 49.51,
+          "flow_rate_lps": 8.76,
+          "consumption_m3": 399.35,
+          "pressure_change_pct": 0.0069,
+          "flow_change_pct": -0.0478,
+          "consumption_change_pct": 0.4933
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T05:20:02.589614",
+          "pressure_psi": 54.24,
+          "flow_rate_lps": 10.97,
+          "consumption_m3": 303.7,
+          "pressure_change_pct": 0.0142,
+          "flow_change_pct": -0.0099,
+          "consumption_change_pct": -0.0052
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.63%",
+            "Flow change: -2.22%",
+            "Consumption change: -2.51%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +3.21%",
+            "Flow change: +1.80%",
+            "Consumption change: -1.21%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.30%",
+            "Flow change: +3.72%",
+            "Consumption change: +2.01%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "SHORTAGE",
+          "severity": "medium",
+          "affected_zone": "zone_4",
+          "confidence": 0.8,
+          "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+          "reasoning_steps": [
+            "Pressure change: +0.69%",
+            "Flow change: -4.78%",
+            "Consumption change: +49.33%",
+            "Consumption spike +49.33% with stable pressure \u2192 SHORTAGE"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.42%",
+            "Flow change: -0.99%",
+            "Consumption change: -0.52%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:02.687289"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:02.687289"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:02.687289"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "resource_rerouted",
+          "success": true,
+          "details": "Resources rerouted to zone_4 due to SHORTAGE (severity: medium)",
+          "timestamp": "2026-04-16T05:20:02.693353"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:02.693353"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T05:20:02.693852"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "a9c5820b",
+      "timestamp": "2026-04-16T05:20:04.018860",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T05:20:03.912299",
+          "pressure_psi": 55.91,
+          "flow_rate_lps": 12.07,
+          "consumption_m3": 320.79,
+          "pressure_change_pct": -0.0016,
+          "flow_change_pct": 0.0134,
+          "consumption_change_pct": 0.0077
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T05:20:03.912299",
+          "pressure_psi": 53.2,
+          "flow_rate_lps": 10.53,
+          "consumption_m3": 274.04,
+          "pressure_change_pct": -0.0036,
+          "flow_change_pct": -0.0186,
+          "consumption_change_pct": 0.0037
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T05:20:03.912299",
+          "pressure_psi": 59.24,
+          "flow_rate_lps": 13.86,
+          "consumption_m3": 345.79,
+          "pressure_change_pct": 0.0244,
+          "flow_change_pct": -0.0253,
+          "consumption_change_pct": -0.0196
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T05:20:03.912299",
+          "pressure_psi": 32.41,
+          "flow_rate_lps": 15.21,
+          "consumption_m3": 265.91,
+          "pressure_change_pct": -0.3409,
+          "flow_change_pct": 0.6533,
+          "consumption_change_pct": -0.0057
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T05:20:03.912299",
+          "pressure_psi": 54.24,
+          "flow_rate_lps": 10.77,
+          "consumption_m3": 301.68,
+          "pressure_change_pct": 0.0,
+          "flow_change_pct": -0.0182,
+          "consumption_change_pct": -0.0067
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.16%",
+            "Flow change: +1.34%",
+            "Consumption change: +0.77%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.36%",
+            "Flow change: -1.86%",
+            "Consumption change: +0.37%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +2.44%",
+            "Flow change: -2.53%",
+            "Consumption change: -1.96%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "medium",
+          "affected_zone": "zone_4",
+          "confidence": 0.85,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -34.09%",
+            "Flow change: +65.33%",
+            "Consumption change: -0.57%",
+            "Pressure drop -34.09% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.00%",
+            "Flow change: -1.82%",
+            "Consumption change: -0.67%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:04.010000"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:04.011019"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:04.011019"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_4 due to LEAK (severity: medium)",
+          "timestamp": "2026-04-16T05:20:04.016866"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:04.016866"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T05:20:04.018360"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "699a1fc6",
+      "timestamp": "2026-04-16T05:20:05.506250",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T05:20:05.403574",
+          "pressure_psi": 55.6,
+          "flow_rate_lps": 12.07,
+          "consumption_m3": 326.38,
+          "pressure_change_pct": -0.0055,
+          "flow_change_pct": 0.0,
+          "consumption_change_pct": 0.0174
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T05:20:05.403574",
+          "pressure_psi": 52.78,
+          "flow_rate_lps": 10.43,
+          "consumption_m3": 276.11,
+          "pressure_change_pct": -0.0079,
+          "flow_change_pct": -0.0095,
+          "consumption_change_pct": 0.0076
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T05:20:05.403574",
+          "pressure_psi": 58.57,
+          "flow_rate_lps": 13.95,
+          "consumption_m3": 352.81,
+          "pressure_change_pct": -0.0113,
+          "flow_change_pct": 0.0065,
+          "consumption_change_pct": 0.0203
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T05:20:05.403574",
+          "pressure_psi": 27.26,
+          "flow_rate_lps": 13.68,
+          "consumption_m3": 255.25,
+          "pressure_change_pct": -0.4456,
+          "flow_change_pct": 0.487,
+          "consumption_change_pct": -0.0455
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T05:20:05.403574",
+          "pressure_psi": 55.26,
+          "flow_rate_lps": 11.04,
+          "consumption_m3": 303.7,
+          "pressure_change_pct": 0.0188,
+          "flow_change_pct": 0.0251,
+          "consumption_change_pct": 0.0067
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.55%",
+            "Flow change: +0.00%",
+            "Consumption change: +1.74%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.79%",
+            "Flow change: -0.95%",
+            "Consumption change: +0.76%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -1.13%",
+            "Flow change: +0.65%",
+            "Consumption change: +2.03%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "high",
+          "affected_zone": "zone_4",
+          "confidence": 0.95,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -44.56%",
+            "Flow change: +48.70%",
+            "Consumption change: -4.55%",
+            "Pressure drop -44.56% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.88%",
+            "Flow change: +2.51%",
+            "Consumption change: +0.67%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:05.497245"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:05.497245"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:05.497245"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_4 due to LEAK (severity: high)",
+          "timestamp": "2026-04-16T05:20:05.503747"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T05:20:05.503747"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T05:20:05.505743"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "33b06a57",
+      "timestamp": "2026-04-16T12:28:36.894257",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T12:28:36.813196",
+          "pressure_psi": 55.82,
+          "flow_rate_lps": 11.75,
+          "consumption_m3": 322.93,
+          "pressure_change_pct": 0.004,
+          "flow_change_pct": -0.0265,
+          "consumption_change_pct": -0.0106
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T12:28:36.813196",
+          "pressure_psi": 50.69,
+          "flow_rate_lps": 10.45,
+          "consumption_m3": 287.05,
+          "pressure_change_pct": -0.0396,
+          "flow_change_pct": 0.0019,
+          "consumption_change_pct": 0.0396
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T12:28:36.813196",
+          "pressure_psi": 56.77,
+          "flow_rate_lps": 14.35,
+          "consumption_m3": 341.77,
+          "pressure_change_pct": -0.0307,
+          "flow_change_pct": 0.0287,
+          "consumption_change_pct": -0.0313
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T12:28:36.813196",
+          "pressure_psi": 49.97,
+          "flow_rate_lps": 8.74,
+          "consumption_m3": 258.0,
+          "pressure_change_pct": 0.0163,
+          "flow_change_pct": -0.05,
+          "consumption_change_pct": -0.0353
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T12:28:36.813196",
+          "pressure_psi": 52.57,
+          "flow_rate_lps": 10.98,
+          "consumption_m3": 292.18,
+          "pressure_change_pct": -0.0487,
+          "flow_change_pct": -0.0054,
+          "consumption_change_pct": -0.0379
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.40%",
+            "Flow change: -2.65%",
+            "Consumption change: -1.06%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.96%",
+            "Flow change: +0.19%",
+            "Consumption change: +3.96%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.07%",
+            "Flow change: +2.87%",
+            "Consumption change: -3.13%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.63%",
+            "Flow change: -5.00%",
+            "Consumption change: -3.53%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -4.87%",
+            "Flow change: -0.54%",
+            "Consumption change: -3.79%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:28:36.893138"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:28:36.893138"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:28:36.893138"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:28:36.893138"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:28:36.893138"
+        }
+      ],
+      "notifications": [],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "a4fbf67e",
+      "timestamp": "2026-04-16T12:49:22.929042",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T12:49:22.860974",
+          "pressure_psi": 33.47,
+          "flow_rate_lps": 20.99,
+          "consumption_m3": 329.39,
+          "pressure_change_pct": -0.4004,
+          "flow_change_pct": 0.7864,
+          "consumption_change_pct": 0.02
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T12:49:22.860974",
+          "pressure_psi": 50.87,
+          "flow_rate_lps": 10.32,
+          "consumption_m3": 281.96,
+          "pressure_change_pct": 0.0036,
+          "flow_change_pct": -0.0124,
+          "consumption_change_pct": -0.0177
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T12:49:22.860974",
+          "pressure_psi": 57.4,
+          "flow_rate_lps": 13.99,
+          "consumption_m3": 357.39,
+          "pressure_change_pct": 0.0111,
+          "flow_change_pct": -0.0251,
+          "consumption_change_pct": 0.0457
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T12:49:22.860974",
+          "pressure_psi": 49.72,
+          "flow_rate_lps": 8.86,
+          "consumption_m3": 266.74,
+          "pressure_change_pct": -0.005,
+          "flow_change_pct": 0.0137,
+          "consumption_change_pct": 0.0339
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T12:49:22.860974",
+          "pressure_psi": 54.53,
+          "flow_rate_lps": 11.08,
+          "consumption_m3": 297.11,
+          "pressure_change_pct": 0.0373,
+          "flow_change_pct": 0.0091,
+          "consumption_change_pct": 0.0169
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "LEAK",
+          "severity": "high",
+          "affected_zone": "zone_1",
+          "confidence": 0.95,
+          "recommended_action": "Close valve and dispatch repair crew",
+          "reasoning_steps": [
+            "Pressure change: -40.04%",
+            "Flow change: +78.64%",
+            "Consumption change: +2.00%",
+            "Pressure drop -40.04% exceeds -20% threshold \u2192 LEAK"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.36%",
+            "Flow change: -1.24%",
+            "Consumption change: -1.77%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.11%",
+            "Flow change: -2.51%",
+            "Consumption change: +4.57%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.50%",
+            "Flow change: +1.37%",
+            "Consumption change: +3.39%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +3.73%",
+            "Flow change: +0.91%",
+            "Consumption change: +1.69%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_1 due to LEAK (severity: high)",
+          "timestamp": "2026-04-16T12:49:22.928033"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:22.928033"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:22.928033"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:22.928033"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:22.928033"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T12:49:22.929042"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "478d4d17",
+      "timestamp": "2026-04-16T12:49:31.417781",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T12:49:31.346664",
+          "pressure_psi": 53.19,
+          "flow_rate_lps": 11.82,
+          "consumption_m3": 476.0,
+          "pressure_change_pct": -0.0471,
+          "flow_change_pct": 0.006,
+          "consumption_change_pct": 0.474
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T12:49:31.346664",
+          "pressure_psi": 51.22,
+          "flow_rate_lps": 10.25,
+          "consumption_m3": 277.42,
+          "pressure_change_pct": 0.0069,
+          "flow_change_pct": -0.0068,
+          "consumption_change_pct": -0.0161
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T12:49:31.346664",
+          "pressure_psi": 59.29,
+          "flow_rate_lps": 14.23,
+          "consumption_m3": 352.0,
+          "pressure_change_pct": 0.0329,
+          "flow_change_pct": 0.0172,
+          "consumption_change_pct": -0.0151
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T12:49:31.346664",
+          "pressure_psi": 51.13,
+          "flow_rate_lps": 9.16,
+          "consumption_m3": 257.28,
+          "pressure_change_pct": 0.0284,
+          "flow_change_pct": 0.0339,
+          "consumption_change_pct": -0.0355
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T12:49:31.346664",
+          "pressure_psi": 52.46,
+          "flow_rate_lps": 11.11,
+          "consumption_m3": 291.29,
+          "pressure_change_pct": -0.038,
+          "flow_change_pct": 0.0027,
+          "consumption_change_pct": -0.0196
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "SHORTAGE",
+          "severity": "medium",
+          "affected_zone": "zone_1",
+          "confidence": 0.8,
+          "recommended_action": "Reroute resources from adjacent zones and alert consumers",
+          "reasoning_steps": [
+            "Pressure change: -4.71%",
+            "Flow change: +0.60%",
+            "Consumption change: +47.40%",
+            "Consumption spike +47.40% with stable pressure \u2192 SHORTAGE"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +0.69%",
+            "Flow change: -0.68%",
+            "Consumption change: -1.61%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +3.29%",
+            "Flow change: +1.72%",
+            "Consumption change: -1.51%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +2.84%",
+            "Flow change: +3.39%",
+            "Consumption change: -3.55%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.80%",
+            "Flow change: +0.27%",
+            "Consumption change: -1.96%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "resource_rerouted",
+          "success": true,
+          "details": "Resources rerouted to zone_1 due to SHORTAGE (severity: medium)",
+          "timestamp": "2026-04-16T12:49:31.416607"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:31.416607"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:31.416607"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:31.416607"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:31.416607"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T12:49:31.417781"
+        }
+      ],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "f473f97a",
+      "timestamp": "2026-04-16T12:49:51.311400",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T12:49:51.248886",
+          "pressure_psi": 55.58,
+          "flow_rate_lps": 11.71,
+          "consumption_m3": 327.09,
+          "pressure_change_pct": -0.0043,
+          "flow_change_pct": -0.0034,
+          "consumption_change_pct": 0.0129
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T12:49:51.248886",
+          "pressure_psi": 53.01,
+          "flow_rate_lps": 10.29,
+          "consumption_m3": 285.28,
+          "pressure_change_pct": 0.0349,
+          "flow_change_pct": 0.0039,
+          "consumption_change_pct": 0.0283
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T12:49:51.248886",
+          "pressure_psi": 58.45,
+          "flow_rate_lps": 13.67,
+          "consumption_m3": 359.8,
+          "pressure_change_pct": -0.0142,
+          "flow_change_pct": -0.0394,
+          "consumption_change_pct": 0.0222
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T12:49:51.248886",
+          "pressure_psi": 49.57,
+          "flow_rate_lps": 8.92,
+          "consumption_m3": 257.09,
+          "pressure_change_pct": -0.0305,
+          "flow_change_pct": -0.0262,
+          "consumption_change_pct": -0.0007
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T12:49:51.248886",
+          "pressure_psi": 54.92,
+          "flow_rate_lps": 10.86,
+          "consumption_m3": 299.76,
+          "pressure_change_pct": 0.0469,
+          "flow_change_pct": -0.0225,
+          "consumption_change_pct": 0.0291
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.43%",
+            "Flow change: -0.34%",
+            "Consumption change: +1.29%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +3.49%",
+            "Flow change: +0.39%",
+            "Consumption change: +2.83%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -1.42%",
+            "Flow change: -3.94%",
+            "Consumption change: +2.22%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.05%",
+            "Flow change: -2.62%",
+            "Consumption change: -0.07%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +4.69%",
+            "Flow change: -2.25%",
+            "Consumption change: +2.91%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:51.311400"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:51.311400"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:51.311400"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:51.311400"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:49:51.311400"
+        }
+      ],
+      "notifications": [],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "427743ff",
+      "timestamp": "2026-04-16T12:50:02.217962",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T12:50:02.144822",
+          "pressure_psi": 55.39,
+          "flow_rate_lps": 12.27,
+          "consumption_m3": 314.25,
+          "pressure_change_pct": -0.0034,
+          "flow_change_pct": 0.0478,
+          "consumption_change_pct": -0.0393
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T12:50:02.144822",
+          "pressure_psi": 51.01,
+          "flow_rate_lps": 10.25,
+          "consumption_m3": 280.97,
+          "pressure_change_pct": -0.0377,
+          "flow_change_pct": -0.0039,
+          "consumption_change_pct": -0.0151
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T12:50:02.144822",
+          "pressure_psi": 57.04,
+          "flow_rate_lps": 13.59,
+          "consumption_m3": 359.37,
+          "pressure_change_pct": -0.0241,
+          "flow_change_pct": -0.0059,
+          "consumption_change_pct": -0.0012
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T12:50:02.144822",
+          "pressure_psi": 50.21,
+          "flow_rate_lps": 8.83,
+          "consumption_m3": 261.54,
+          "pressure_change_pct": 0.0129,
+          "flow_change_pct": -0.0101,
+          "consumption_change_pct": 0.0173
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T12:50:02.144822",
+          "pressure_psi": 53.71,
+          "flow_rate_lps": 10.81,
+          "consumption_m3": 303.05,
+          "pressure_change_pct": -0.022,
+          "flow_change_pct": -0.0046,
+          "consumption_change_pct": 0.011
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -0.34%",
+            "Flow change: +4.78%",
+            "Consumption change: -3.93%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -3.77%",
+            "Flow change: -0.39%",
+            "Consumption change: -1.51%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_3",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -2.41%",
+            "Flow change: -0.59%",
+            "Consumption change: -0.12%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: +1.29%",
+            "Flow change: -1.01%",
+            "Consumption change: +1.73%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 0.9,
+          "recommended_action": "No action required",
+          "reasoning_steps": [
+            "Pressure change: -2.20%",
+            "Flow change: -0.46%",
+            "Consumption change: +1.10%",
+            "All values within normal range \u2192 NORMAL"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:50:02.217426"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:50:02.217426"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:50:02.217426"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:50:02.217426"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T12:50:02.217426"
+        }
+      ],
+      "notifications": [],
+      "status": "completed"
+    },
+    {
+      "cycle_id": "be550ed7",
+      "timestamp": "2026-04-16T13:04:08.318318",
+      "perceptions": [
+        {
+          "zone_id": "zone_1",
+          "timestamp": "2026-04-16T13:03:54.452638",
+          "pressure_psi": 54.16,
+          "flow_rate_lps": 12.3,
+          "consumption_m3": 314.28,
+          "pressure_change_pct": -0.0222,
+          "flow_change_pct": 0.0024,
+          "consumption_change_pct": 0.0001
+        },
+        {
+          "zone_id": "zone_2",
+          "timestamp": "2026-04-16T13:03:54.452638",
+          "pressure_psi": 53.12,
+          "flow_rate_lps": 10.56,
+          "consumption_m3": 271.88,
+          "pressure_change_pct": 0.0414,
+          "flow_change_pct": 0.0302,
+          "consumption_change_pct": -0.0324
+        },
+        {
+          "zone_id": "zone_3",
+          "timestamp": "2026-04-16T13:03:54.452638",
+          "pressure_psi": 37.43,
+          "flow_rate_lps": 22.25,
+          "consumption_m3": 345.77,
+          "pressure_change_pct": -0.3438,
+          "flow_change_pct": 0.6372,
+          "consumption_change_pct": -0.0378
+        },
+        {
+          "zone_id": "zone_4",
+          "timestamp": "2026-04-16T13:03:54.452638",
+          "pressure_psi": 49.66,
+          "flow_rate_lps": 8.98,
+          "consumption_m3": 265.42,
+          "pressure_change_pct": -0.011,
+          "flow_change_pct": 0.017,
+          "consumption_change_pct": 0.0148
+        },
+        {
+          "zone_id": "zone_5",
+          "timestamp": "2026-04-16T13:03:54.452638",
+          "pressure_psi": 52.94,
+          "flow_rate_lps": 10.89,
+          "consumption_m3": 299.16,
+          "pressure_change_pct": -0.0143,
+          "flow_change_pct": 0.0074,
+          "consumption_change_pct": -0.0128
+        }
+      ],
+      "reasonings": [
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_1",
+          "confidence": 1.0,
+          "recommended_action": "Monitor for trends; no immediate action required.",
+          "reasoning_steps": [
+            "Pressure change is -2.22%, which is within the stable range (<10% change).",
+            "Flow rate change is +0.24%, which is negligible and does not indicate a sudden anomaly (>30% increase required for LEAK).",
+            "Consumption change is +0.01%, which is stable and does not indicate a spike (>30% increase required for SHORTAGE).",
+            "No criteria for LEAK or SHORTAGE are met, so the zone is classified as NORMAL."
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_2",
+          "confidence": 0.98,
+          "recommended_action": "Monitor for trends; no immediate action required.",
+          "reasoning_steps": [
+            "Pressure change is +4.14% (well below the 20% threshold for LEAK).",
+            "Flow rate change is +3.02% (below the 30% threshold for LEAK).",
+            "Consumption change is -3.24% (not a spike, so not SHORTAGE).",
+            "No anomalies meet the classification criteria for LEAK or SHORTAGE."
+          ]
+        },
+        {
+          "issue_type": "LEAK",
+          "severity": "high",
+          "affected_zone": "zone_3",
+          "confidence": 0.99,
+          "recommended_action": "Immediately dispatch repair teams to zone_3 for leak detection and repair. Monitor pressure and flow in real-time for further anomalies.",
+          "reasoning_steps": [
+            "Pressure drop of -34.38% exceeds the 20% threshold for a LEAK classification.",
+            "Flow rate increase of +63.72% exceeds the 30% threshold for a LEAK classification.",
+            "Consumption change of -3.78% is stable (well below 30% spike), ruling out SHORTAGE.",
+            "Pressure drop magnitude (-34.38%) and flow increase magnitude (+63.72%) both indicate high severity.",
+            "No conflicting indicators; LEAK is the only applicable classification."
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_4",
+          "confidence": 1.0,
+          "recommended_action": "Monitor for trends; no immediate action required.",
+          "reasoning_steps": [
+            "Pressure change is -1.10%, which is well below the 20% threshold for a LEAK.",
+            "Flow rate change is +1.70%, which is below the 30% threshold for a LEAK.",
+            "Consumption change is +1.48%, which is below the 30% threshold for a SHORTAGE.",
+            "No anomalies detected in pressure or flow rate that would indicate a LEAK or SHORTAGE.",
+            "All changes are minor and within normal operational ranges."
+          ]
+        },
+        {
+          "issue_type": "NORMAL",
+          "severity": "low",
+          "affected_zone": "zone_5",
+          "confidence": 1.0,
+          "recommended_action": "Monitor for any developing anomalies.",
+          "reasoning_steps": [
+            "Pressure change is -1.43%, which is within the stable range (<10%).",
+            "Flow rate change is +0.74%, which is not a sudden anomaly (>30%).",
+            "Consumption change is -1.28%, which is not a spike (>30%).",
+            "No criteria for LEAK or SHORTAGE are met.",
+            "All metrics are within normal operating ranges."
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "zone_id": "zone_1",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T13:04:08.304457"
+        },
+        {
+          "zone_id": "zone_2",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T13:04:08.304457"
+        },
+        {
+          "zone_id": "zone_3",
+          "action_type": "valve_closed",
+          "success": true,
+          "details": "Valve closed for zone_3 due to LEAK (severity: high)",
+          "timestamp": "2026-04-16T13:04:08.315708"
+        },
+        {
+          "zone_id": "zone_4",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T13:04:08.315708"
+        },
+        {
+          "zone_id": "zone_5",
+          "action_type": "no_action",
+          "success": true,
+          "details": "Zone operating normally \u2014 no action needed",
+          "timestamp": "2026-04-16T13:04:08.315708"
+        }
+      ],
+      "notifications": [
+        {
+          "channel": "log",
+          "success": true,
+          "details": "Notification logged (no email/Slack configured)",
+          "timestamp": "2026-04-16T13:04:08.317317"
+        }
+      ],
+      "status": "completed"
+    }
+  ],
+  "events": [
+    {
+      "cycle_id": "b1764e42",
+      "zone_id": "zone_3",
+      "issue_type": "LEAK",
+      "severity": "medium",
+      "confidence": 0.85,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_3 due to LEAK (severity: medium)",
+      "timestamp": "2026-04-15T17:58:28.157782"
+    },
+    {
+      "cycle_id": "035e983f",
+      "zone_id": "zone_3",
+      "issue_type": "LEAK",
+      "severity": "medium",
+      "confidence": 0.85,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_3 due to LEAK (severity: medium)",
+      "timestamp": "2026-04-15T18:06:03.987866"
+    },
+    {
+      "cycle_id": "57a5f8e6",
+      "zone_id": "zone_3",
+      "issue_type": "LEAK",
+      "severity": "medium",
+      "confidence": 0.85,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_3 due to LEAK (severity: medium)",
+      "timestamp": "2026-04-15T18:24:11.218537"
+    },
+    {
+      "cycle_id": "d3505d42",
+      "zone_id": "zone_3",
+      "issue_type": "SHORTAGE",
+      "severity": "medium",
+      "confidence": 0.8,
+      "action": "resource_rerouted",
+      "action_success": true,
+      "action_details": "Resources rerouted to zone_3 due to SHORTAGE (severity: medium)",
+      "timestamp": "2026-04-15T18:24:13.882156"
+    },
+    {
+      "cycle_id": "b08f8949",
+      "zone_id": "zone_3",
+      "issue_type": "LEAK",
+      "severity": "high",
+      "confidence": 0.95,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_3 due to LEAK (severity: high)",
+      "timestamp": "2026-04-15T18:24:15.883020"
+    },
+    {
+      "cycle_id": "8a3fc53c",
+      "zone_id": "zone_4",
+      "issue_type": "SHORTAGE",
+      "severity": "medium",
+      "confidence": 0.8,
+      "action": "resource_rerouted",
+      "action_success": true,
+      "action_details": "Resources rerouted to zone_4 due to SHORTAGE (severity: medium)",
+      "timestamp": "2026-04-16T05:19:59.752899"
+    },
+    {
+      "cycle_id": "c563ad55",
+      "zone_id": "zone_4",
+      "issue_type": "LEAK",
+      "severity": "high",
+      "confidence": 0.95,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_4 due to LEAK (severity: high)",
+      "timestamp": "2026-04-16T05:20:01.039177"
+    },
+    {
+      "cycle_id": "30bca74c",
+      "zone_id": "zone_4",
+      "issue_type": "SHORTAGE",
+      "severity": "medium",
+      "confidence": 0.8,
+      "action": "resource_rerouted",
+      "action_success": true,
+      "action_details": "Resources rerouted to zone_4 due to SHORTAGE (severity: medium)",
+      "timestamp": "2026-04-16T05:20:02.694351"
+    },
+    {
+      "cycle_id": "a9c5820b",
+      "zone_id": "zone_4",
+      "issue_type": "LEAK",
+      "severity": "medium",
+      "confidence": 0.85,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_4 due to LEAK (severity: medium)",
+      "timestamp": "2026-04-16T05:20:04.018860"
+    },
+    {
+      "cycle_id": "699a1fc6",
+      "zone_id": "zone_4",
+      "issue_type": "LEAK",
+      "severity": "high",
+      "confidence": 0.95,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_4 due to LEAK (severity: high)",
+      "timestamp": "2026-04-16T05:20:05.506250"
+    },
+    {
+      "cycle_id": "a4fbf67e",
+      "zone_id": "zone_1",
+      "issue_type": "LEAK",
+      "severity": "high",
+      "confidence": 0.95,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_1 due to LEAK (severity: high)",
+      "timestamp": "2026-04-16T12:49:22.929042"
+    },
+    {
+      "cycle_id": "478d4d17",
+      "zone_id": "zone_1",
+      "issue_type": "SHORTAGE",
+      "severity": "medium",
+      "confidence": 0.8,
+      "action": "resource_rerouted",
+      "action_success": true,
+      "action_details": "Resources rerouted to zone_1 due to SHORTAGE (severity: medium)",
+      "timestamp": "2026-04-16T12:49:31.417781"
+    },
+    {
+      "cycle_id": "be550ed7",
+      "zone_id": "zone_3",
+      "issue_type": "LEAK",
+      "severity": "high",
+      "confidence": 0.99,
+      "action": "valve_closed",
+      "action_success": true,
+      "action_details": "Valve closed for zone_3 due to LEAK (severity: high)",
+      "timestamp": "2026-04-16T13:04:08.318318"
+    }
+  ]
+}
