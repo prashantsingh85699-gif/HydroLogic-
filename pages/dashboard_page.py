@@ -597,7 +597,12 @@ st.markdown("""
     /* ─── RESPONSIVE: Mobile (< 768px) ─── */
     @media (max-width: 768px) {
         .main .block-container {
-            padding: 0.5rem 0.5rem;
+            padding: 3.5rem 0.6rem 2rem 0.6rem !important;
+        }
+        header[data-testid="stHeader"] {
+            background: #ffffff !important;
+            height: 3rem !important;
+            border-bottom: 1px solid rgba(0,0,0,0.05) !important;
         }
         .hero-header {
             flex-direction: column;
