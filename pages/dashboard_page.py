@@ -313,39 +313,41 @@ st.markdown("""
     .zone-metrics {
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        margin-top: 10px;
+        gap: 4px;
+        margin-top: 8px;
     }
     .zone-metric-item {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 4px 0;
-        border-bottom: 1px solid rgba(26, 35, 126, 0.05);
+        padding: 3px 0;
+        border-bottom: 1px solid rgba(26, 35, 126, 0.03);
     }
     .zone-metric-item:last-child { border-bottom: none; }
 
     .metric-val {
-        font-size: clamp(0.78rem, 1.2vw, 0.95rem);
+        font-size: clamp(0.7rem, 1.1vw, 0.88rem);
         font-weight: 700;
         color: var(--text-dark);
         white-space: nowrap;
+        flex-shrink: 0;
     }
     .metric-val small {
-        font-size: 0.58rem;
+        font-size: 0.52rem;
         color: var(--text-muted);
         font-weight: 400;
-        margin-left: 2px;
+        margin-left: 1px;
     }
     .metric-label {
-        font-size: clamp(0.48rem, 0.8vw, 0.58rem);
+        font-size: clamp(0.42rem, 0.75vw, 0.52rem);
         color: var(--text-muted);
         text-transform: uppercase;
-        letter-spacing: 0.3px;
+        letter-spacing: 0.2px;
         font-weight: 600;
         white-space: nowrap;
-        flex-shrink: 0;
-        margin-right: 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-right: 2px;
     }
 
     /* ─── Section Titles ─── */
