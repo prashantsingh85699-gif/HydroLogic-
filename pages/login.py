@@ -127,6 +127,8 @@ st.markdown("""
     }
     div[data-baseweb="input"] input {
         color: #1e293b !important;
+        -webkit-text-fill-color: #1e293b !important;
+        background-color: transparent !important;
         font-size: 1rem !important;
         font-family: 'Inter', sans-serif !important;
     }
