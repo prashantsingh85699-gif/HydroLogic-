@@ -111,23 +111,23 @@ st.markdown("""
         margin-bottom: 0 !important;
     }
 
-    /* Input Styling - Aggressive fix for mobile black-bars */
+    /* Input Styling - High Visibility Fix */
     div[data-baseweb="input"], 
     div[data-baseweb="input"] > div,
     div[data-baseweb="base-input"] {
-        background-color: #f8fafc !important;
-        color: #1e293b !important;
+        background-color: #f1f5f9 !important;
+        color: #0f172a !important;
         border-radius: 14px !important;
     }
     div[data-baseweb="input"] {
-        border: 1px solid #e2e8f0 !important;
+        border: 1.5px solid #cbd5e1 !important;
         padding: 10px 14px !important;
-        margin-bottom: 4px !important;
+        margin-bottom: 8px !important;
         transition: all 0.2s !important;
     }
     div[data-baseweb="input"]:focus-within {
         border-color: #3b82f6 !important;
-        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15) !important;
         background-color: #ffffff !important;
     }
     div[data-baseweb="input"] input {
