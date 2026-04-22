@@ -562,7 +562,13 @@ st.markdown("""
         overflow: hidden;
     }
     header[data-testid="stHeader"] {
-        background: transparent !important;
+        background: rgba(250, 250, 250, 0.8) !important;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(0, 188, 212, 0.1) !important;
+    }
+    header[data-testid="stHeader"] button {
+        color: var(--text-dark) !important;
     }
     .stMarkdown, .stMarkdown p, .stMarkdown li, .stMarkdown strong {
         color: var(--text-dark) !important;
