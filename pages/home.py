@@ -123,7 +123,7 @@ st.markdown(f"""
 <div class="home-hero">
     <h1 class="welcome-title">Welcome back, {user_name}.</h1>
     <p class="welcome-subtitle">
-        Your UtilityGuard autonomous pipeline is active and monitoring all sectors. 
+        Your Hydrologic autonomous pipeline is active and monitoring all sectors. 
         Multi-agent reasoning cycles are nominal and no critical anomalies require human intervention at this time.
     </p>
     <div>

@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from streamlit_cookies_controller import CookieController
 
-controller = CookieController(key="utilityguard_auth")
+controller = CookieController(key="hydrologic_auth")
 
 st.markdown("""
 <style>
@@ -75,7 +75,7 @@ st.markdown("""
 with st.form("logout_form", clear_on_submit=False):
     # Place text directly inside the structural form to avoid Streamlit HTML clipping
     st.markdown("<div class='logout-title'>Secure Session Exit</div>", unsafe_allow_html=True)
-    st.markdown("<div class='logout-desc'>Are you sure you want to end your active UtilityGuard session and clear your authentication?</div>", unsafe_allow_html=True)
+    st.markdown("<div class='logout-desc'>Are you sure you want to end your active Hydrologic session and clear your authentication?</div>", unsafe_allow_html=True)
     
     submitted = st.form_submit_button("Confirm Logout")
     

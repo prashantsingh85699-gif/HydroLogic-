@@ -693,9 +693,9 @@ st.markdown("""
 st.markdown("""
 <div class="hero-header">
     <div class="hero-left">
-        <div class="hero-shield">UG</div>
+        <div class="hero-shield">HL</div>
         <div>
-            <div class="hero-title">UtilityGuard</div>
+            <div class="hero-title">Hydrologic</div>
             <div class="hero-subtitle">Autonomous Multi-Agent System for Real-Time Water Utility Leak &amp; Shortage Management</div>
         </div>
     </div>

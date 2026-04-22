@@ -50,14 +50,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1>Support & Documentation 📚</h1>", unsafe_allow_html=True)
-st.markdown("<p style='color: #607d8b; font-size: 1.1rem; margin-bottom: 2rem;'>Guides on using the UtilityGuard multi-agent platform.</p>", unsafe_allow_html=True)
+st.markdown("<p style='color: #607d8b; font-size: 1.1rem; margin-bottom: 2rem;'>Guides on using the Hydrologic multi-agent platform.</p>", unsafe_allow_html=True)
 
 with st.container():
     st.markdown("""
     <div class="doc-section">
         <span class="topic-tag">GETTING STARTED</span>
         <h3>How Authentication Works</h3>
-        <p>UtilityGuard supports both local account creation and Social Login (Google/GitHub). Social logins are automatically mapped to your system profile upon first authorization.</p>
+        <p>Hydrologic supports both local account creation and Social Login (Google/GitHub). Social logins are automatically mapped to your system profile upon first authorization.</p>
     </div>
     """, unsafe_allow_html=True)
 

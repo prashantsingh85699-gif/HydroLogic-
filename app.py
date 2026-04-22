@@ -5,14 +5,14 @@ from streamlit_cookies_controller import CookieController
 
 # Global Page Config must be first
 st.set_page_config(
-    page_title="UtilityGuard Platform",
+    page_title="Hydrologic Platform",
     page_icon="🌊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 # Initialize Cookie Controller with a UNIFIED key for all pages
-controller = CookieController(key="utilityguard_auth")
+controller = CookieController(key="hydrologic_auth")
 
 # Provide a small invisible state to keep track
 if "logged_in" not in st.session_state:
@@ -44,7 +44,7 @@ if st.session_state.logged_in:
     # Sidebar branding
     st.sidebar.markdown("""
     <div style='text-align: center; padding: 20px 0;'>
-        <h3 style='color: #00BCD4; margin: 0;'>UtilityGuard v2.0</h3>
+        <h3 style='color: #00BCD4; margin: 0;'>Hydrologic v2.0</h3>
         <p style='font-size: 0.8rem; color: #888;'>Enterprise Water Management</p>
     </div>
     <hr style='margin: 0;'>
@@ -60,6 +60,6 @@ pg.run()
 if st.session_state.logged_in:
     st.markdown("""
     <div style='text-align: center; color: #888; font-size: 0.8rem; margin-top: 50px; padding: 20px; border-top: 1px solid #eee;'>
-        © 2026 UtilityGuard Platform • Autonomous Infrastructure Management
+        © 2026 Hydrologic Platform • Autonomous Infrastructure Management
     </div>
     """, unsafe_allow_html=True)

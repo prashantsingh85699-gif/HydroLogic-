@@ -270,8 +270,8 @@ brand_html = """
             <path d="M12 18.5C14.4853 18.5 16.5 16.4853 16.5 14C16.5 11.5147 12 7 12 7C12 7 7.5 11.5147 7.5 14C7.5 16.4853 9.51471 18.5 12 18.5Z" fill="#ffffff" fill-opacity="0.2"/>
         </svg>
     </div>
-    <div class="brand-title">UtilityGuard</div>
-    <p class="brand-subtitle">Manage your utilities with confidence</p>
+    <div class="brand-title">Hydrologic</div>
+    <p class="brand-subtitle">Smart Water Management Platform</p>
 </div>
 """
 
