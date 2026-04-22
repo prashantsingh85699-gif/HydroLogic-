@@ -111,14 +111,19 @@ st.markdown("""
         margin-bottom: 0 !important;
     }
 
-    /* Input Styling */
-    div[data-baseweb="input"] {
+    /* Input Styling - Aggressive fix for mobile black-bars */
+    div[data-baseweb="input"], 
+    div[data-baseweb="input"] > div,
+    div[data-baseweb="base-input"] {
         background-color: #f8fafc !important;
-        border: 1px solid #e2e8f0 !important;
+        color: #1e293b !important;
         border-radius: 14px !important;
+    }
+    div[data-baseweb="input"] {
+        border: 1px solid #e2e8f0 !important;
         padding: 10px 14px !important;
         margin-bottom: 4px !important;
-        transition: border-color 0.2s, box-shadow 0.2s !important;
+        transition: all 0.2s !important;
     }
     div[data-baseweb="input"]:focus-within {
         border-color: #3b82f6 !important;
@@ -131,6 +136,7 @@ st.markdown("""
         background-color: transparent !important;
         font-size: 1rem !important;
         font-family: 'Inter', sans-serif !important;
+        border: none !important;
     }
     [data-testid="stTextInput"] label {
         display: none !important;
