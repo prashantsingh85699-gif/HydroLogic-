@@ -271,97 +271,80 @@ brand_html = """
 </div>
 """
 
-# We use session state to track if the user is currently in the OAuth flow
-if "active_oauth" not in st.session_state:
-    st.session_state.active_oauth = None
-
-def trigger_oauth(provider: str):
-    st.session_state.active_oauth = provider
-
-# Main Application logic
-if st.session_state.active_oauth:
-    provider = st.session_state.active_oauth
-    
-    st.markdown('<div class="brand-section"><div class="brand-title" style="margin-top: 40px !important;">External Login</div></div>', unsafe_allow_html=True)
-    st.markdown(f"<p style='text-align: center; color: #64748b; font-family: Inter;'>Connecting to <b>{provider.capitalize()}</b> OAuth Server...</p>", unsafe_allow_html=True)
-    
-    st.markdown('<div class="stMainBlockContainer">', unsafe_allow_html=True)
+@st.dialog("Simulating External Login...")
+def mock_oauth_dialog(provider: str):
+    st.write(f"Connecting to **{provider.capitalize()}** OAuth Server...")
     oauth_email = st.text_input(f"Verify your {provider.capitalize()} Email", placeholder="user@gmail.com")
     oauth_name = st.text_input(f"Verify your Display Name", placeholder="Your Name")
     
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("⬅ Cancel", use_container_width=True):
-            st.session_state.active_oauth = None
-            st.rerun()
-    with col2:
-        if st.button(f"Authorize {provider.capitalize()} ➔", use_container_width=True):
-            if oauth_email and oauth_name:
-                with st.spinner("Authorizing Token..."):
-                    time.sleep(1.5)
-                    result = authenticate_oauth(provider, oauth_email, oauth_name)
-                    if result['success']:
-                        st.session_state.username = result['username']
-                        st.session_state.user_name = result['name']
-                        st.session_state.logged_in = True
-                        st.session_state.explicit_session_logout = False
-                        st.session_state.active_oauth = None
-                        st.rerun()
-                    else:
-                        st.error(result['error'])
-            else:
-                st.warning("Please fill out the mock details to proceed.")
-                
-else:
-    tab1, tab2 = st.tabs(["🔒 Sign In", "📝 Register"])
+    if st.button(f"Authorize {provider.capitalize()} ➔", use_container_width=True):
+        if oauth_email and oauth_name:
+            with st.spinner("Authorizing Token..."):
+                time.sleep(1.5)
+                result = authenticate_oauth(provider, oauth_email, oauth_name)
+                if result['success']:
+                    st.session_state.username = result['username']
+                    st.session_state.user_name = result['name']
+                    st.session_state.logged_in = True
+                    st.session_state.explicit_session_logout = False
+                    st.success("Authenticated! Redirecting...")
+                    time.sleep(0.5)
+                    st.rerun()
+                else:
+                    st.error(result['error'])
+        else:
+            st.warning("Please fill out the mock details to proceed.")
+# Main Application logic
+tab1, tab2 = st.tabs(["🔒 Sign In", "📝 Register"])
 
-    with tab1:
+with tab1:
+    with st.form("login_form", border=False):
         st.markdown(brand_html, unsafe_allow_html=True)
         
-        # Standard inputs ensure real-time websocket synchronization
         username = st.text_input("Username", placeholder="👤 Username", key="login_usr")
         password = st.text_input("Password", type="password", placeholder="🔒 Password", key="login_pwd")
         
         st.markdown('<div class="forgot-link"><a href="#">Forgot password?</a></div>', unsafe_allow_html=True)
         
-        # Using a native button instead of a form submit ensures precise execution timing
-        if st.button("Sign In →", use_container_width=True, key="login_btn"):
+        submitted = st.form_submit_button("Sign In →")
+        
+        if submitted:
             result = authenticate_user(username, password)
             if result['success']:
                 st.session_state.username = result['username']
                 st.session_state.user_name = result['name']
                 st.session_state.logged_in = True
                 st.session_state.explicit_session_logout = False
+                st.success("Authentication successful! Redirecting...")
+                time.sleep(0.5)
                 st.rerun()
             else:
                 st.error(result['error'])
 
-        # Divider & Social
-        st.markdown("""
-        <div class="divider-container">
-            <div class="divider-line"></div>
-            <div class="divider-text">OR CONTINUE WITH</div>
-            <div class="divider-line"></div>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("🌐 Google", key="login_google", use_container_width=True):
-                trigger_oauth("google")
-                st.rerun()
-        with col2:
-            if st.button("🐈 GitHub", key="login_github", use_container_width=True):
-                trigger_oauth("github")
-                st.rerun()
-                
-        # Legal Footer
-        st.markdown("""
-        <div class="legal-footer">
-            By continuing, you agree to our <br>
-            <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
-        </div>
-        """, unsafe_allow_html=True)
+    # Divider & Social
+    st.markdown("""
+    <div class="divider-container">
+        <div class="divider-line"></div>
+        <div class="divider-text">OR CONTINUE WITH</div>
+        <div class="divider-line"></div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        if st.button("🌐 Google", key="login_google", use_container_width=True):
+            mock_oauth_dialog("google")
+    with col2:
+        if st.button("🐈 GitHub", key="login_github", use_container_width=True):
+            mock_oauth_dialog("github")
+            
+    # Legal Footer
+    st.markdown("""
+    <div class="legal-footer">
+        By continuing, you agree to our <br>
+        <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+    </div>
+    """, unsafe_allow_html=True)
 
     with tab2:
         with st.form("register_form", border=False):
