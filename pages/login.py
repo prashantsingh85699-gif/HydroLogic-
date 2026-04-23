@@ -271,29 +271,19 @@ brand_html = """
 </div>
 """
 
-@st.dialog("Simulating External Login...")
-def mock_oauth_dialog(provider: str):
-    st.write(f"Connecting to **{provider.capitalize()}** OAuth Server...")
-    oauth_email = st.text_input(f"Verify your {provider.capitalize()} Email", placeholder="user@gmail.com")
-    oauth_name = st.text_input(f"Verify your Display Name", placeholder="Your Name")
-    
-    if st.button(f"Authorize {provider.capitalize()} ➔", use_container_width=True):
-        if oauth_email and oauth_name:
-            with st.spinner("Authorizing Token..."):
-                time.sleep(1.5)
-                result = authenticate_oauth(provider, oauth_email, oauth_name)
-                if result['success']:
-                    st.session_state.username = result['username']
-                    st.session_state.user_name = result['name']
-                    st.session_state.logged_in = True
-                    st.session_state.explicit_session_logout = False
-                    st.success("Authenticated! Redirecting...")
-                    time.sleep(0.5)
-                    st.rerun()
-                else:
-                    st.error(result['error'])
+# We bypass unstable modal Dialog components on Cloud for OAuth flows
+def inline_mock_oauth(provider: str, email: str, name: str):
+    with st.spinner(f"Simulating {provider.capitalize()} Secure Login..."):
+        time.sleep(1)
+        result = authenticate_oauth(provider, email, name)
+        if result['success']:
+            st.session_state.username = result['username']
+            st.session_state.user_name = result['name']
+            st.session_state.logged_in = True
+            st.session_state.explicit_session_logout = False
+            st.rerun()
         else:
-            st.warning("Please fill out the mock details to proceed.")
+            st.error(result['error'])
 
 # Main Application logic
 tab1, tab2 = st.tabs(["🔒 Sign In", "📝 Register"])
@@ -331,10 +321,10 @@ with tab1:
     col1, col2 = st.columns(2)
     with col1:
         if st.button("🌐 Google", key="login_google", use_container_width=True):
-            mock_oauth_dialog("google")
+            inline_mock_oauth("google", "demo@gmail.com", "Demo User")
     with col2:
         if st.button("🐈 GitHub", key="login_github", use_container_width=True):
-            mock_oauth_dialog("github")
+            inline_mock_oauth("github", "dev@github.com", "Developer")
             
     # Legal Footer
     st.markdown("""
